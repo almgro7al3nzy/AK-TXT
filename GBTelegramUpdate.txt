@@ -1,0 +1,17 @@
+{
+  "GB": {
+    "update_code": "0",
+    "app_version": "1",
+    "reminder_time": "3",
+    "update_version": "v1.70",
+    "update_link": "https://www.gbgroupapps.com/?p=508",
+    "gbhelp_link": "https://www.gbgroupapps.com/?p=508",
+    "update_message": "
+<p>Update Vتحديث 15</p>
+
+<li>(حصريا) إضافة الخيار 2.1.11 يمكنك من خلاله اخفاء الخيارات التي لا تستخدمها مثل(الرسائل المميزة بنجمة - الاجهزة المرتبطة - المحادثات المخصصة الخ..).</li>
+
+<li>(Exclusive) Added mod 2.1.11 to hide unused options from chats menu. like(Starred messages - custom chats - restart - Linked devices)</li>
+"
+    }
+}

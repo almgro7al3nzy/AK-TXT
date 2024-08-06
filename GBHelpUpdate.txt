@@ -1,0 +1,25 @@
+{
+  "GB": {
+    "update_gbhelp_code": "9",
+    "reminder_time": "3",
+    "insta_themes": "1",
+    "update_link": "https://t.me/gb_groupApps",
+    "app_gbinsta": "https://www.mediafire.com/file/8x7v8e4hdicczme/GBInsta_v5.9_by_atnfas_hoak.apk/file,v5.9,GBInstagram,com.gbinsta.android",
+    "app_insta": "https://www.mediafire.com/file/w763i6k9y7j8d1z/GBInstaPlus_v5.9_by_atnfas_hoak.apk/file,v5.9,GBInstagram Plus,com.instagram.android",
+    "app_gbwa": "https://t.me/gb_groupApps",
+    "app_gbwa3": "https://t.me/gb_groupApps",
+    "app_wa": "https://t.me/gb_groupApps",
+    "app_fmwa": "https://t.me/gb_groupApps",
+    "app_yowa": "https://t.me/gb_groupApps",
+    "app_nowa": "https://t.me/gb_groupApps",
+    "app_nowa2": "https://t.me/gb_groupApps",
+    "app_nowa3": "https://t.me/gb_groupApps",
+    "update_message": "
+<li>V2.7</li>
+
+<li>يجب التحديث للضرورة</li>
+
+<li>Un urgent update</li>
+"
+    }
+}

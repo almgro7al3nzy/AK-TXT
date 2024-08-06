@@ -1,0 +1,30 @@
+{
+  "GB": {
+    "update_code": "10",
+    "reminder_time": "3",
+    "update_version": "v5.9",
+    "update_link": "https://www.mediafire.com/file/cezc6zpa8eoxbjn/GBHelp_v2.6.apk/file",
+    "gbinsta_link": "https://www.mediafire.com/file/8x7v8e4hdicczme/GBInsta_v5.9_by_atnfas_hoak.apk/file",
+    "insta_link": "https://www.mediafire.com/file/w763i6k9y7j8d1z/GBInstaPlus_v5.9_by_atnfas_hoak.apk/file",
+    "update_message": "
+<p>Update Vتحديث 5.9</p>
+
+<li>اضافة خيار لتغيير خط البرنامج (الاضافات والخصائص - الخطوط)</li>
+<li>اضافة خيار لعرض تنبيه (جاري بدء التحميل) عند حفظ مقطع فيديو او صورة (من الإضافات والخصائص - إعدادات التحميل)</li>
+<li>إضافة خيار لمنع تكرار تحميل الوسائط في جهازك(حيث سيظهر تنبيه تم تحميل هذه الصورة من قبل، ولتعطيله من الإضافات والخصائص - إعدادات التحميل)</li>
+<li>إضافة إمكانية الدخول لوضع المطور من البروفايل - ثم خيارات</li>
+<li>تحسين شكل الاعدادات</li>
+<li>إصلاح الانهيار في وضع المطور</li>
+<li>إصلاحات اخرى</li>
+
+
+<li>Added Fonts in GB Settings(50 Fonts)</li>
+<li>Added option to show (Download started) when saving media</li>
+<li>Added option to anti-repeat saving media in the Gallery</li>
+<li>Added Option to open developer settings from profile - options</li>
+<li>Improve Settings style</li>
+<li>Fixed crash in developer settings</li>
+<li>Other Fixes</li>
+"
+    }
+}

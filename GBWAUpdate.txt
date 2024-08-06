@@ -1,0 +1,40 @@
+{
+  "Gold": {
+    "update_code": "0",
+    "reminder_time": "3",
+    "update_version": "v26.2",
+    "gbhelp_link": "https://www.mediafire.com/file/bjq9vaiixkjpwpd/GBHelp_v2.9.apk/file",
+    "com.gbwhatsapp": "https://www.mediafire.com/file/shewcme4p34nn5q/WAPlus_v25.9_by_atnfas_hoak.apk/file",
+    "gb_link": "https://www.mediafire.com/file/tcjt5mf4eqif6g1/GBWA_v25.9_by_atnfas_hoak.apk/file",
+    "gb3_link": "https://www.mediafire.com/file/0l4vygjqciif548/GBWA3_v25.9_by_atnfas_hoak.apk/file",
+    "fm_link": "https://www.mediafire.com/file/ftczscob2tah5ej/FMWA_v25.9_by_atnfas_hoak.apk/file",
+    "yo_link": "https://www.mediafire.com/file/a7o35xiulsb9fjo/YOWA_v25.9_by_atnfas_hoak.apk/file",
+    "no_link": "https://www.mediafire.com/file/p44wx3s7sgmu8zu/NOWA_v25.9_by_atnfas_hoak.apk/file",
+    "no2_link": "https://www.mediafire.com/file/86tn7cwqv5yf6sj/NOWA2_v25.9_by_atnfas_hoak.apk/file",
+    "no3_link": "https://www.mediafire.com/file/w9aqj2gwp028w8f/NOWA3_v25.9_by_atnfas_hoak.apk/file",
+    "stickers_app": "dontcheck",
+    "stickers_app_package_name": "com.gbstickers.gb",
+    "stickers_app_link": "https://play.google.com/store/apps/details?id=com.gbstickers.gb",
+    "stickers_app_direct_link": "https://www.gbgroupapps.com/?p=508",
+    "update_message": "
+<p>Update Vتحديث 26.1</p>
+<li>إضافة الخيار 6.26 لإخفاء اشعار الحالات المحذوفة</li>
+<li>تحسين زر حفظ الحالات</li>
+<li>تحسين ظهور زر الترجمة في المحادثة</li>
+<li>تحسين إشعار متصل الان</li>
+<li>إصلاح شاشة ارسال الموقع</li>
+<li>إصلاح تخصيص المحادثات في حال كان الرقم مفعل على واتساب بزنس</li>
+<li>إصلاح خيار تشغيل الفيديوهات بمشغل خارجي</li>
+<li>إصلاحات اخرى</li>
+
+<li>Added 6.26 option to hide revoked story notification</li>
+<li>Improving Statues download fab</li>
+<li>Improving Translation button in chat</li>
+<li>Improving Online toast</li>
+<li>Fixed send location</li>
+<li>Fixed custom settings for businesse chats</li>
+<li>Fixed playing videos with Mx player</li>
+<li>Other fixes</li>
+"
+    }
+}

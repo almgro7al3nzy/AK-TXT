@@ -1,0 +1,37 @@
+{
+  "Gold": {
+    "update_code": "0",
+    "reminder_time": "3",
+    "update_link": "https://www.mediafire.com/file/bjq9vaiixkjpwpd/GBHelp_v2.9.apk/file",
+    "stickers_app": "dontcheck",
+    "stickers_app_package_name": "com.gbstickers.gb",
+    "stickers_app_link": "https://play.google.com/store/apps/details?id=com.gbstickers.gb",
+    "stickers_app_direct_link": "https://www.gbgroupapps.com/?p=508",
+    "update_message": "
+<p>Update Vتحديث 26.1</p>
+<li>تحديث القاعدة الى 2.23.16.76</li>
+<li>(حصريا) انقل محادثاتك من اي نسخة واتساب الى الواتساب الخاص بنا بضغطة زر عبر تقنية حصريه!</li>
+<li>(حصريا) تطوير ميزة عرض الرسائل المحذوفة(يمكنك الان مشاهد جميع الوسائط والملفات والملصقات) من خلال فتح بروفايل المحادثة ثم الرسائل المحذوفة.</li>
+<li>(حصريا) إمكانية ترجمة الحالات النصية</li>
+<li>إصلاح إعدادات الرد التلقائي</li>
+<li>إصلاح ظهور إشعارات الاصدقاء فقط ارقام بدون اسماء.</li>
+<li>إصلاح لون جاري الكتابة/جاري تسجيل مقطع صوتي في المحادثات</li>
+<li>إصلاح الانهيار عند استقبال رسالة من خلال الاشعارات المنبثقة</li>
+<li>إصلاح الخيار 1.2.43 لتغيير حجم الفيسات</li>
+<li>إصلاح ظهور الارقام في شاشة تعطيل المكالمات</li>
+<li>إصلاحات اخرى</li>
+
+<li>Base Updated to 2.23.16.76</li>
+<li>(Exclusive) Move your chats from other Mods to our GBWA by one click.</li>
+<li>(Exclusive) Develope Revoked messages history(Now you can see media / location / stickers). Open the chat info/Revoked messages</li>
+<li>(Exclusive) You can Translate statuses</li>
+<li>Fixed showing numbers instead of names when getting online notification</li>
+<li>Fixed AutoReply Settings</li>
+<li>Fixed Typing/Recording color in chats</li>
+<li>Fixed Mod 1.2.43 to change emotions size</li>
+<li>Fixed crash when using popup notifications</li>
+<li>Fixed Showing numbers instead of Names in disable calls screen</li>
+<li>Other fixes</li>
+"
+    }
+}

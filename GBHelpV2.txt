@@ -1,0 +1,50 @@
+{
+    "GBHelp": {
+        "update_gbhelp_code": "9",
+        "reminder_time": "3",
+        "insta_themes": "1",
+        "update_link": "https://t.me/gb_groupApps",
+        "app_gbinsta": "https://www.mediafire.com/file/8x7v8e4hdicczme/GBInsta_v5.9_by_atnfas_hoak.apk/file,v5.9,GBInstagram,com.gbinsta.android",
+        "app_insta": "https://www.mediafire.com/file/w763i6k9y7j8d1z/GBInstaPlus_v5.9_by_atnfas_hoak.apk/file,v5.9,GBInstagram Plus,com.instagram.android",
+        "app_gbwa": "https://www.t.me/gb_groupApps,v28,GBWhatsApp,com.gbwhatsapp",
+        "app_gbwa3": "https://www.t.me/gb_groupApps,v28,GBWhatsApp3,com.gbwhatsapp3",
+        "app_wa": "https://www.t.me/gb_groupApps,v28,WhatsApp,com.whatsapp",
+        "app_fmwa": "https://www.t.me/gb_groupApps,v28,FMWhatsApp,com.fmwhatsapp",
+        "app_yowa": "https://www.t.me/gb_groupApps,v28,YOWhatsApp,com.yowhatsapp",
+        "app_nowa": "https://www.t.me/gb_groupApps,v28,NOWhatsApp,com.nowhatsapp",
+        "app_nowa2": "https://www.t.me/gb_groupApps,v28,NOWhatsApp2,com.nowhatsapp2",
+        "app_nowa3": "https://www.t.me/gb_groupApps,v28,NOWhatsApp3,com.nowhatsapp3",
+        "update_message": "",
+        "update_message_ar": ""
+    },
+    "GBInsta": {
+        "update_code": "11",
+        "reminder_time": "3",
+        "update_version": "v5.9",
+        "update_link": "https://www.mediafire.com/file/bjq9vaiixkjpwpd/GBHelp_v2.9.apk/file",
+        "gbinsta_link": "https://www.mediafire.com/file/8x7v8e4hdicczme/GBInsta_v5.9_by_atnfas_hoak.apk/file",
+        "insta_link": "https://www.mediafire.com/file/w763i6k9y7j8d1z/GBInstaPlus_v5.9_by_atnfas_hoak.apk/file",
+        "update_message": "",
+        "update_message_ar": ""
+    },
+    "GBWA": {
+        "update_code": "0",
+        "reminder_time": "3",
+        "update_version": "v28",
+        "gbhelp_link": "https://www.t.me/gb_groupApps",
+        "wa_link": "https://www.t.me/gb_groupApps",
+        "gb_link": "https://www.t.me/gb_groupApps",
+        "gb3_link": "https://www.t.me/gb_groupApps",
+        "fm_link": "https://www.t.me/gb_groupApps",
+        "yo_link": "https://www.t.me/gb_groupApps",
+        "no_link": "https://www.t.me/gb_groupApps",
+        "no2_link": "https://www.t.me/gb_groupApps",
+        "no3_link": "https://www.t.me/gb_groupApps",
+        "stickers_app": "dontcheck",
+        "stickers_app_package_name": "com.gbstickers.gb",
+        "stickers_app_link": "https://play.google.com/store/apps/details?id=com.gbstickers.gb",
+        "stickers_app_direct_link": "https://www.gbgroupapps.com/?p=508",
+        "update_message": "",
+        "update_message_ar": ""
+    }
+}
