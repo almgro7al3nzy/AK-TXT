@@ -25,3 +25,13 @@ nfr4.dnstt.org
 nde1.dnstt.org
 nfr1.dnstt.org
 nfr2.dnstt.org
+wgserver.net
+fr5.wgserver.net
+fr4.wgserver.net
+fr2.wgserver.net
+fr3.wgserver.net
+uk1.wgserver.net
+de2.wgserver.net
+de1.wgserver.net
+fr1.wgserver.net
+
