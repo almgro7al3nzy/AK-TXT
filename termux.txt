@@ -1,0 +1,133 @@
+لتمكين اللغة العربية في Termux وجعلها تظهر بشكل صحيح، يمكنك اتباع الخطوات التالية:
+
+1. **تثبيت الخطوط المناسبة**:
+   قم بتثبيت الخطوط التي تدعم اللغة العربية. يمكنك استخدام الخطوط المتاحة في Termux أو تثبيت خط مخصص. استخدم الأمر التالي لتثبيت حزمة الخطوط:
+
+   ```bash
+   pkg install fonts-noto-fonts-ar
+   ```
+
+2. **تعديل إعدادات Termux**:
+   يمكن أن تحتاج إلى تعديل إعدادات Termux لتفعيل دعم اللغة العربية. افتح ملف `.bashrc` أو `.profile` باستخدام محرر نصوص مثل `nano`:
+
+   ```bash
+   nano ~/.bashrc
+   ```
+
+   ثم أضف السطر التالي في نهاية الملف:
+
+   ```bash
+   export LANG=ar_SA.UTF-8
+   ```
+
+   بعد ذلك، احفظ الملف واخرج من المحرر.
+
+3. **إعادة تحميل الإعدادات**:
+   لتنشيط التغييرات، يمكنك إما إعادة تشغيل Termux أو تنفيذ الأمر التالي:
+
+   ```bash
+   source ~/.bashrc
+   ```
+
+4. **تثبيت برنامج يدعم الكتابة بالعربية**:
+   يمكنك استخدام برامج مثل `vim` أو `nano` مع دعم UTF-8 لكتابة النصوص باللغة العربية.
+
+بعد تنفيذ هذه الخطوات، يجب أن تتمكن من كتابة وقراءة النصوص العربية بشكل صحيح في Termux.
+
+
+
+
+
+
+
+
+
+بالطبع! إليك التعديلات اللازمة على الكود لحفظ الرابط بدون "http://" أو "https://":
+
+```python
+import requests
+import sys
+import socket
+
+print("      https://t.me/Icanflyy1   	")
+
+# COLORS #
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKCYAN = '\033[96m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
+
+if len(sys.argv) != 2:
+    print("\n Error: Type python3 potin.py yourfile.txt\n")
+    sys.exit()
+else:
+    f = open(sys.argv[1], 'r')
+    lines = f.readlines()
+    f.close()
+
+    filename = 'potin_files/' + sys.argv[1].replace('../', '') + '_output.txt'
+    ip_filename = 'potin_files/ip.txt'
+    out = open(filename, 'w+')
+    ip_out = open(ip_filename, 'w+')
+
+for line in lines:
+    try:
+        # معالجة الرابط لإزالة http:// أو https://
+        if 'http://' in line.strip():
+            url = line.strip().replace('http://', '')
+        elif 'https://' in line.strip():
+            url = line.strip().replace('https://', '')
+        else:
+            url = line.strip()
+
+        s = requests.Session()
+        r = s.head('http://' + url, timeout=1)  # استخدم http:// في الطلب
+        response = r.headers
+
+        # حفظ الرابط بدون http:// أو https://
+        out.write(url + '\n')
+
+        if r.status_code == 200:
+            ip = socket.gethostbyname(url)
+            ip_out.write(ip + '\n')
+
+            try:
+                print("\n", '\x1b[6;30;42m', '[OK]200', bcolors.ENDC, ':', url, r.headers['server'])
+                print("IP Address:", ip)
+            except KeyError:
+                print('Server not found')
+                print("IP Address:", ip)
+
+        # باقي الأكواد كما هي بدون تعديل في طباعة الرسائل
+
+    except requests.ConnectionError as e:
+        print("\n", bcolors.ENDC + url + bcolors.FAIL + " Failed to connect ")
+        continue
+    except requests.Timeout as e:
+        print("[!] : Timeout Error")
+        continue
+    except requests.RequestException as e:
+        print("[!] : General Error")
+        continue
+
+    except KeyboardInterrupt:
+        out.close()
+        ip_out.close()
+        print("\nOutput saved in: " + filename)
+        print("IP addresses saved in: " + ip_filename)
+        exit()
+
+print("\nOutput saved in: " + filename)
+print("IP addresses saved in: " + ip_filename)
+out.close()
+ip_out.close()
+```
+
+في هذا الكود، تمت إزالة "http://" و "https://" من الروابط عند حفظها في ملف الخرج. إذا كان لديك أي أسئلة أو تحتاج إلى مزيد من التعديلات، فلا تتردد في إخباري!
