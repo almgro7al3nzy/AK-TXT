@@ -1,0 +1,11 @@
+md1udp.ssh0.net:1-65535@sshocean-f5r:f5r
+
+
+
+trojan://97b84c57-18e5-4a1c-8429-c2c95989d6fc@fr1.safecdn.site:443?host=fr1.safecdn.site&path=%2F&sni=deaf.ocdpsd.gov.jo&type=ws#sshocean-f5r_trojan_ws
+
+
+
+
+
+trojan://97b84c57-18e5-4a1c-8429-c2c95989d6fc@fr1.safecdn.site:443?mode=gun&security=tls&type=grpc&serviceName=grpc&sni=deaf.ocdpsd.gov.jo#sshocean-f5r_trojan-grpc
