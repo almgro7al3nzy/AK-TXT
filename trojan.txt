@@ -1,0 +1,2 @@
+trojan://2297cb0a-a500-4511-a49d-bf5574b52ec4@tr1.safecdn.site:443?host=tr1.safecdn.site&path=%2F&sni=deaf.ocdpsd.gov.jo&type=ws#sshocean-f5r_trojan_ws
+trojan://2297cb0a-a500-4511-a49d-bf5574b52ec4@tr1.safecdn.site:443?mode=gun&security=tls&type=grpc&serviceName=grpc&sni=deaf.ocdpsd.gov.jo#sshocean-f5r_trojan-grpc
