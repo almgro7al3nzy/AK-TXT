@@ -1,4 +1,20 @@
 md1udp.ssh0.net:1-65535@sshocean-f5r:f5r
 fr1udp.ssh0.net:1-65535@sshocean-devf5r:1994
+194.147.35.212:1-65535@freevpn.us-billtammy3451:billtammy3451
 
 
+
+
+
+
+
+
+
+
+Host Name: udp-uk-1.vpnv.cc
+Ip Address: 194.147.35.212:1-65535@freevpn.us-billtammy3451:billtammy3451
+Username: freevpn.us-billtammy3451
+Password: billtammy3451
+Expired: 2024-11-28 18:07:09
+UDP Port: 1-65535
+UDPGW: 7300
