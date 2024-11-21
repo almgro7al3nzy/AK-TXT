@@ -2,3 +2,6 @@ trojan://2297cb0a-a500-4511-a49d-bf5574b52ec4@tr1.safecdn.site:443?host=tr1.safe
 trojan://2297cb0a-a500-4511-a49d-bf5574b52ec4@tr1.safecdn.site:443?mode=gun&security=tls&type=grpc&serviceName=grpc&sni=deaf.ocdpsd.gov.jo#sshocean-f5r_trojan-grpc
 trojan://35436c66-1ed1-48bb-ab7a-8840ecd25773@uk1.safecdn.site:443?host=uk1.safecdn.site&path=%2F&sni=deaf.ocdpsd.gov.jo&type=ws#sshocean-f5r_trojan_ws
 trojan://35436c66-1ed1-48bb-ab7a-8840ecd25773@uk1.safecdn.site:443?mode=gun&security=tls&type=grpc&serviceName=grpc&sni=deaf.ocdpsd.gov.jo#sshocean-f5r_trojan-grpc
+trojan://1c6d02fe-6ba8-4648-a399-e9917721329c@uk2.safecdn.site:443?host=uk2.safecdn.site&path=%2F&sni=deaf.ocdpsd.gov.jo&type=ws#sshocean-f5r_trojan_ws
+trojan://732efe62-9b31-4b9f-bc44-10c7f00b78db@us1.safecdn.site:443?host=us1.safecdn.site&path=%2F&sni=deaf.ocdpsd.gov.jo&type=ws#sshocean-f5r_trojan_ws
+trojan://732efe62-9b31-4b9f-bc44-10c7f00b78db@us1.safecdn.site:443?mode=gun&security=tls&type=grpc&serviceName=grpc&sni=deaf.ocdpsd.gov.jo#sshocean-f5r_trojan-grpc
