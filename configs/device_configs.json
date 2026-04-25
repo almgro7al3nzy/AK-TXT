@@ -1,0 +1,61 @@
+{
+  "-Or4T5ZEEZjAlB7AJJCp": {
+    "hostname": "AP F5R",
+    "ip": "192.168.1.20",
+    "mac": "DC:9F:DB:9A:AB:D6",
+    "mode": "AP WDS",
+    "model": "NanoStation loco M5",
+    "network": {
+      "gateway": "0.0.0.0",
+      "ip": "192.168.1.20",
+      "netmask": "255.255.255.0"
+    },
+    "services": {
+      "pingWatchdog": false,
+      "snmp": true,
+      "ssh": true,
+      "webServer": true
+    },
+    "ssid": "F5R",
+    "status": "online",
+    "version": "v6.3.24",
+    "wireless": {
+      "channelWidth": "20",
+      "distance": 1.1,
+      "frequency": "5180",
+      "security": "WPA-AES",
+      "ssid": "F5R",
+      "txPower": 23
+    }
+  },
+  "-Or4T5ndVBSsR1WvBHmT": {
+    "firmware": "v6.2.0",
+    "ip": "10.0.197.25",
+    "mac": "0C:EA:14:96:6C:EC",
+    "mode": "STA",
+    "name": "bilal al7or",
+    "product": "LiteBeam M5",
+    "ssid": "Q_U_001",
+    "status": "online"
+  },
+  "-Or4T5yzDuTDQ9B-uPKx": {
+    "firmware": "v8.7.19",
+    "ip": "10.100.198.22",
+    "mac": "1C:6A:1B:B6:B1:1E",
+    "mode": "AP",
+    "name": "Q_U_001",
+    "product": "LiteAP GPS",
+    "ssid": "Q_U_001",
+    "status": "online"
+  },
+  "-Or4T6BvSmATWJlQw7NL": {
+    "firmware": "v6.3.24",
+    "ip": "10.0.197.60",
+    "mac": "28:70:4E:B0:C2:F1",
+    "mode": "STA",
+    "name": "Abdul Karim Al-Salem",
+    "product": "LiteBeam M5",
+    "ssid": "Q_U_001",
+    "status": "online"
+  }
+}
