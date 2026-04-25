@@ -1,0 +1,2095 @@
+{
+  "admin_credentials": {
+    "password": "admin",
+    "username": "admin"
+  },
+  "admins": {
+    "admin": {
+      "createdAt": "2026-04-25T04:52:11.518Z",
+      "password": "admin",
+      "role": "superadmin",
+      "status": "active",
+      "username": "admin"
+    }
+  },
+  "adsl_plans": [
+    {
+      "price": 18500,
+      "quota": "50 GB",
+      "speedAfter": "256 Kb",
+      "title": "1 Mb",
+      "type": "أساسية"
+    },
+    {
+      "price": 24000,
+      "quota": "85 GB",
+      "speedAfter": "256 Kb",
+      "title": "2 Mb",
+      "type": "أساسية"
+    },
+    {
+      "price": 38000,
+      "quota": "140 GB",
+      "speedAfter": "512 Kb",
+      "title": "4 Mb",
+      "type": "أساسية"
+    },
+    {
+      "price": 64000,
+      "quota": "175 GB",
+      "speedAfter": "1 Mb",
+      "title": "8 Mb",
+      "type": "أساسية"
+    },
+    {
+      "price": 83000,
+      "quota": "225 GB",
+      "speedAfter": "2 Mb",
+      "title": "16 Mb",
+      "type": "أساسية"
+    },
+    {
+      "price": 29500,
+      "quota": "50 GB",
+      "speedAfter": "256 Kb",
+      "title": "1 Mb",
+      "type": "VIP"
+    },
+    {
+      "price": 37000,
+      "quota": "85 GB",
+      "speedAfter": "256 Kb",
+      "title": "2 Mb",
+      "type": "VIP"
+    },
+    {
+      "price": 65000,
+      "quota": "140 GB",
+      "speedAfter": "512 Kb",
+      "title": "4 Mb",
+      "type": "VIP"
+    },
+    {
+      "price": 118000,
+      "quota": "175 GB",
+      "speedAfter": "1 Mb",
+      "title": "8 Mb",
+      "type": "VIP"
+    },
+    {
+      "price": 176000,
+      "quota": "225 GB",
+      "speedAfter": "2 Mb",
+      "title": "16 Mb",
+      "type": "VIP"
+    },
+    {
+      "price": 22500,
+      "quota": "55 GB",
+      "speedAfter": "256 Kb",
+      "title": "1 Mb",
+      "type": "Speed"
+    },
+    {
+      "price": 30000,
+      "quota": "95 GB",
+      "speedAfter": "256 Kb",
+      "title": "2 Mb",
+      "type": "Speed"
+    },
+    {
+      "price": 32000,
+      "quota": "110 GB",
+      "speedAfter": "256 Kb",
+      "title": "1 Mb",
+      "type": "Speed عائلي"
+    },
+    {
+      "price": 44000,
+      "quota": "190 GB",
+      "speedAfter": "256 Kb",
+      "title": "2 Mb",
+      "type": "Speed عائلي"
+    },
+    {
+      "price": 26000,
+      "quota": "75 GB",
+      "speedAfter": "256 Kb",
+      "title": "1 Mb",
+      "type": "طلابي"
+    },
+    {
+      "price": 34900,
+      "quota": "125 GB",
+      "speedAfter": "256 Kb",
+      "title": "2 Mb",
+      "type": "طلابي"
+    },
+    {
+      "price": 52800,
+      "quota": "200 GB",
+      "speedAfter": "512 Kb",
+      "title": "4 Mb",
+      "type": "طلابي"
+    },
+    {
+      "price": 80800,
+      "quota": "260 GB",
+      "speedAfter": "1 Mb",
+      "title": "8 Mb",
+      "type": "طلابي"
+    },
+    {
+      "price": 26500,
+      "quota": "100 GB",
+      "speedAfter": "256 Kb",
+      "title": "1 Mb",
+      "type": "عائلي"
+    },
+    {
+      "price": 38600,
+      "quota": "170 GB",
+      "speedAfter": "256 Kb",
+      "title": "2 Mb",
+      "type": "عائلي"
+    },
+    {
+      "price": 58900,
+      "quota": "280 GB",
+      "speedAfter": "512 Kb",
+      "title": "4 Mb",
+      "type": "عائلي"
+    },
+    {
+      "price": 86700,
+      "quota": "350 GB",
+      "speedAfter": "1 Mb",
+      "title": "8 Mb",
+      "type": "عائلي"
+    },
+    {
+      "price": 31800,
+      "quota": "150 GB",
+      "speedAfter": "256 Kb",
+      "title": "1 Mb",
+      "type": "Premium"
+    },
+    {
+      "price": 40800,
+      "quota": "200 GB",
+      "speedAfter": "256 Kb",
+      "title": "2 Mb",
+      "type": "Premium"
+    },
+    {
+      "price": 61500,
+      "quota": "300 GB",
+      "speedAfter": "512 Kb",
+      "title": "4 Mb",
+      "type": "Premium"
+    },
+    {
+      "price": 93800,
+      "quota": "400 GB",
+      "speedAfter": "1 Mb",
+      "title": "8 Mb",
+      "type": "Premium"
+    },
+    {
+      "price": 37600,
+      "quota": "100 GB",
+      "speedAfter": "256 Kb",
+      "title": "1 Mb",
+      "type": "VIP عائلي"
+    },
+    {
+      "price": 49000,
+      "quota": "170 GB",
+      "speedAfter": "256 Kb",
+      "title": "2 Mb",
+      "type": "VIP عائلي"
+    },
+    {
+      "price": 86000,
+      "quota": "280 GB",
+      "speedAfter": "512 Kb",
+      "title": "4 Mb",
+      "type": "VIP عائلي"
+    },
+    {
+      "price": 137000,
+      "quota": "350 GB",
+      "speedAfter": "1 Mb",
+      "title": "8 Mb",
+      "type": "VIP عائلي"
+    },
+    {
+      "price": 205500,
+      "quota": "450 GB",
+      "speedAfter": "2 Mb",
+      "title": "16 Mb",
+      "type": "VIP عائلي"
+    }
+  ],
+  "apps": [
+    {
+      "desc": "التطبيق الرئيسي للشركة",
+      "title": "F5R ISP",
+      "version": "v1.0.0"
+    },
+    {
+      "desc": "تطبيق المشاهدة على الجوال",
+      "title": "TV Mobile App",
+      "version": "v1.0.1"
+    },
+    {
+      "desc": "تطبيق التلفزيون المحمول",
+      "title": "Mobile F5R TV",
+      "version": "v1.0.2"
+    },
+    {
+      "desc": "التطبيق الرئيسي للشركة",
+      "title": "جديد",
+      "version": "v1.0.0"
+    }
+  ],
+  "bundles": [
+    {
+      "price": 1800,
+      "title": "5GB"
+    },
+    {
+      "price": 3300,
+      "title": "10GB"
+    },
+    {
+      "price": 5700,
+      "title": "20GB"
+    },
+    {
+      "price": 7600,
+      "title": "30GB"
+    },
+    {
+      "price": 11500,
+      "title": "50GB"
+    },
+    {
+      "price": 13500,
+      "title": "75GB"
+    },
+    {
+      "price": 19000,
+      "title": "100GB"
+    },
+    {
+      "price": 35000,
+      "title": "200GB"
+    },
+    {
+      "price": 83500,
+      "title": "500GB"
+    },
+    {
+      "price": 152500,
+      "title": "1000GB"
+    },
+    {
+      "price": 747000,
+      "title": "5000GB"
+    }
+  ],
+  "cities": [
+    {
+      "name": "دمشق",
+      "poss": 33,
+      "wifi": 1
+    },
+    {
+      "name": "ريف دمشق",
+      "poss": 0,
+      "wifi": 9
+    },
+    {
+      "name": "حلب",
+      "poss": 0,
+      "wifi": 0
+    },
+    {
+      "name": "حمص",
+      "poss": 55,
+      "wifi": 1
+    },
+    {
+      "name": "اللاذقية",
+      "poss": 285,
+      "wifi": 0
+    },
+    {
+      "name": "حماة",
+      "poss": 33,
+      "wifi": 3
+    },
+    {
+      "name": "طرطوس",
+      "poss": 29,
+      "wifi": 1
+    },
+    {
+      "name": "إدلب",
+      "poss": 0,
+      "wifi": 0
+    },
+    {
+      "name": "الحسكة",
+      "poss": 0,
+      "wifi": 0
+    },
+    {
+      "name": "دير الزور",
+      "poss": 0,
+      "wifi": 0
+    },
+    {
+      "name": "الرقة",
+      "poss": 0,
+      "wifi": 0
+    },
+    {
+      "name": "السويداء",
+      "poss": 0,
+      "wifi": 0
+    },
+    {
+      "name": "درعا",
+      "poss": 1,
+      "wifi": 0
+    },
+    {
+      "name": "القنيطرة",
+      "poss": 0,
+      "wifi": 0
+    }
+  ],
+  "contacts": [
+    {
+      "icon": "fab fa-facebook",
+      "title": "فيسبوك",
+      "url": "https://www.facebook.com/MTSISP"
+    },
+    {
+      "icon": "fab fa-telegram",
+      "title": "تيليجرام",
+      "url": "https://t.me/MTS_ISP_bot"
+    },
+    {
+      "icon": "fab fa-instagram",
+      "title": "انستجرام",
+      "url": "https://www.instagram.com/mts_isp/"
+    },
+    {
+      "icon": "fab fa-youtube",
+      "title": "يوتيوب",
+      "url": "https://www.youtube.com/@mtsisp3801"
+    },
+    {
+      "icon": "fab fa-whatsapp",
+      "title": "واتساب",
+      "url": "https://wa.me/+963996802720"
+    },
+    {
+      "icon": "fas fa-phone",
+      "title": "011-9270",
+      "url": "tel:119270"
+    }
+  ],
+  "device_logs": {
+    "-Or4T5ZEEZjAlB7AJJCp": [
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_10",
+        "level": "info",
+        "message": "تجديد IP",
+        "time": "٢٢‏/٤‏/٢٠٢٦ ٨:٤٧:٣٠ ص",
+        "timestamp": "2026-04-25T10:48:40.675Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_15",
+        "level": "error",
+        "message": "فشل استعلام DNS",
+        "time": "٢٣‏/٤‏/٢٠٢٦ ٣:٤٩:٠١ ص",
+        "timestamp": "2026-04-25T10:46:37.996Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_29",
+        "level": "warning",
+        "message": "ارتفاع درجة حرارة المعالج",
+        "time": "٢١‏/٤‏/٢٠٢٦ ٢:٥٦:٣٠ ص",
+        "timestamp": "2026-04-25T01:52:41.539Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_14",
+        "level": "error",
+        "message": "فشل اتصال WDS",
+        "time": "٢٣‏/٤‏/٢٠٢٦ ١٢:٤٢:٣٢ ص",
+        "timestamp": "2026-04-24T21:30:05.201Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_18",
+        "level": "critical",
+        "message": "انقطاع مفاجئ في الطاقة",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ٤:٣٤:٠٩ ص",
+        "timestamp": "2026-04-24T21:24:43.167Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_16",
+        "level": "success",
+        "message": "تحديث البرنامج الثابت",
+        "time": "٢٠‏/٤‏/٢٠٢٦ ١:٠٣:٤٩ م",
+        "timestamp": "2026-04-24T12:44:34.179Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_23",
+        "level": "critical",
+        "message": "انقطاع مفاجئ في الطاقة",
+        "time": "٢١‏/٤‏/٢٠٢٦ ٥:٠٦:١٤ ص",
+        "timestamp": "2026-04-24T09:21:27.644Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_3",
+        "level": "error",
+        "message": "فشل استعلام DNS",
+        "time": "١٩‏/٤‏/٢٠٢٦ ١:٥٠:١٥ م",
+        "timestamp": "2026-04-24T07:49:05.288Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_6",
+        "level": "info",
+        "message": "اتصال عميل جديد",
+        "time": "٢٤‏/٤‏/٢٠٢٦ ١٢:٢٠:٥٨ ص",
+        "timestamp": "2026-04-24T03:27:40.899Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_28",
+        "level": "critical",
+        "message": "تجاوز درجة الحرارة المسموح بها",
+        "time": "٢٠‏/٤‏/٢٠٢٦ ٦:٥١:١٥ م",
+        "timestamp": "2026-04-24T02:59:43.224Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_4",
+        "level": "info",
+        "message": "تجديد IP",
+        "time": "٢٢‏/٤‏/٢٠٢٦ ٢:١٥:٢٤ م",
+        "timestamp": "2026-04-23T21:55:17.263Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_24",
+        "level": "success",
+        "message": "تأسيس اتصال WDS",
+        "time": "٢٣‏/٤‏/٢٠٢٦ ١:٣٦:١٨ م",
+        "timestamp": "2026-04-23T18:14:32.884Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_12",
+        "level": "info",
+        "message": "تجديد IP",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ٦:١٥:٣١ م",
+        "timestamp": "2026-04-23T14:37:49.391Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_19",
+        "level": "error",
+        "message": "فشل اتصال WDS",
+        "time": "٢٠‏/٤‏/٢٠٢٦ ١:٤١:١٣ ص",
+        "timestamp": "2026-04-23T13:53:31.690Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_22",
+        "level": "success",
+        "message": "تحديث البرنامج الثابت",
+        "time": "٢٣‏/٤‏/٢٠٢٦ ٥:١٧:٥٨ م",
+        "timestamp": "2026-04-23T06:20:59.218Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_21",
+        "level": "info",
+        "message": "تغيير القناة تلقائياً",
+        "time": "٢١‏/٤‏/٢٠٢٦ ٩:١٥:٠٣ م",
+        "timestamp": "2026-04-23T02:31:03.848Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_5",
+        "level": "warning",
+        "message": "انخفاض قوة الإشارة",
+        "time": "٢٢‏/٤‏/٢٠٢٦ ١٠:٣٦:٤٣ ص",
+        "timestamp": "2026-04-22T21:08:30.596Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_17",
+        "level": "success",
+        "message": "تحديث البرنامج الثابت",
+        "time": "١٨‏/٤‏/٢٠٢٦ ١٠:١٠:١٣ م",
+        "timestamp": "2026-04-22T06:16:24.012Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_7",
+        "level": "info",
+        "message": "تغيير القناة تلقائياً",
+        "time": "٢١‏/٤‏/٢٠٢٦ ٦:٤٥:١٥ ص",
+        "timestamp": "2026-04-21T16:06:12.886Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_9",
+        "level": "critical",
+        "message": "انقطاع مفاجئ في الطاقة",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ٨:٢٣:٣٥ ص",
+        "timestamp": "2026-04-21T11:05:39.802Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_1",
+        "level": "info",
+        "message": "تغيير القناة تلقائياً",
+        "time": "٢٢‏/٤‏/٢٠٢٦ ٤:٥٤:٢٧ م",
+        "timestamp": "2026-04-20T14:19:46.501Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_0",
+        "level": "critical",
+        "message": "انقطاع مفاجئ في الطاقة",
+        "time": "١٩‏/٤‏/٢٠٢٦ ٥:٤٠:٢٢ م",
+        "timestamp": "2026-04-20T05:44:29.551Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_13",
+        "level": "info",
+        "message": "تجديد IP",
+        "time": "٢١‏/٤‏/٢٠٢٦ ١١:٥٦:٠٢ م",
+        "timestamp": "2026-04-20T04:52:29.540Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_8",
+        "level": "warning",
+        "message": "ارتفاع درجة حرارة المعالج",
+        "time": "١٩‏/٤‏/٢٠٢٦ ١:٤٨:٢٦ م",
+        "timestamp": "2026-04-19T10:05:51.884Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_26",
+        "level": "info",
+        "message": "تغيير القناة تلقائياً",
+        "time": "٢٤‏/٤‏/٢٠٢٦ ١:٣٨:٠٧ ص",
+        "timestamp": "2026-04-19T04:45:11.417Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_2",
+        "level": "info",
+        "message": "اتصال عميل جديد",
+        "time": "٢٣‏/٤‏/٢٠٢٦ ٧:٤٠:٠٠ ص",
+        "timestamp": "2026-04-19T02:15:56.458Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_20",
+        "level": "warning",
+        "message": "ارتفاع درجة حرارة المعالج",
+        "time": "٢١‏/٤‏/٢٠٢٦ ٦:٢٩:١٨ م",
+        "timestamp": "2026-04-18T22:20:24.736Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_27",
+        "level": "info",
+        "message": "اتصال عميل جديد",
+        "time": "٢٢‏/٤‏/٢٠٢٦ ١١:٣٣:٤٣ م",
+        "timestamp": "2026-04-18T20:27:49.967Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_25",
+        "level": "warning",
+        "message": "انخفاض قوة الإشارة",
+        "time": "٢٤‏/٤‏/٢٠٢٦ ٣:٣٦:١٥ م",
+        "timestamp": "2026-04-18T18:15:47.253Z"
+      },
+      {
+        "deviceId": "-Or4T5ZEEZjAlB7AJJCp",
+        "deviceName": "AP F5R",
+        "id": "log_11",
+        "level": "success",
+        "message": "تحديث البرنامج الثابت",
+        "time": "٢٣‏/٤‏/٢٠٢٦ ٦:٢٢:٣١ م",
+        "timestamp": "2026-04-18T17:13:12.556Z"
+      }
+    ],
+    "-Or4T5ndVBSsR1WvBHmT": [
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_0",
+        "level": "info",
+        "message": "اتصال عميل جديد",
+        "time": "٢١‏/٤‏/٢٠٢٦ ٧:٥٩:١٧ م",
+        "timestamp": "2026-04-25T14:15:17.105Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_1",
+        "level": "info",
+        "message": "اتصال عميل جديد",
+        "time": "٢٤‏/٤‏/٢٠٢٦ ٦:٠٨:١٧ م",
+        "timestamp": "2026-04-25T13:51:39.362Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_21",
+        "level": "error",
+        "message": "فشل اتصال WDS",
+        "time": "٢١‏/٤‏/٢٠٢٦ ٣:٢٩:٥٤ م",
+        "timestamp": "2026-04-25T13:05:03.912Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_11",
+        "level": "warning",
+        "message": "انخفاض قوة الإشارة",
+        "time": "٢٢‏/٤‏/٢٠٢٦ ٣:٤٤:٣٣ م",
+        "timestamp": "2026-04-25T08:24:42.424Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_9",
+        "level": "info",
+        "message": "اتصال عميل جديد",
+        "time": "٢٤‏/٤‏/٢٠٢٦ ٩:٤٥:٢٦ ص",
+        "timestamp": "2026-04-25T03:24:04.559Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_15",
+        "level": "info",
+        "message": "تجديد IP",
+        "time": "٢١‏/٤‏/٢٠٢٦ ١١:٠٢:١٧ ص",
+        "timestamp": "2026-04-24T22:05:12.548Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_5",
+        "level": "warning",
+        "message": "استخدام ذاكرة مرتفع",
+        "time": "١٩‏/٤‏/٢٠٢٦ ١٠:١٧:١٦ ص",
+        "timestamp": "2026-04-24T04:03:29.872Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_27",
+        "level": "error",
+        "message": "خطأ في منفذ Ethernet",
+        "time": "٢٤‏/٤‏/٢٠٢٦ ١١:٥٣:٥١ ص",
+        "timestamp": "2026-04-24T02:10:34.947Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_19",
+        "level": "info",
+        "message": "تغيير القناة تلقائياً",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ٧:٥١:١٦ م",
+        "timestamp": "2026-04-23T19:45:24.407Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_17",
+        "level": "info",
+        "message": "اتصال عميل جديد",
+        "time": "٢١‏/٤‏/٢٠٢٦ ٥:٢٩:١٦ ص",
+        "timestamp": "2026-04-23T08:38:32.408Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_4",
+        "level": "error",
+        "message": "خطأ في منفذ Ethernet",
+        "time": "٢٤‏/٤‏/٢٠٢٦ ٢:٢٤:٠٣ م",
+        "timestamp": "2026-04-23T03:45:52.729Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_25",
+        "level": "info",
+        "message": "اتصال عميل جديد",
+        "time": "٢١‏/٤‏/٢٠٢٦ ٥:٣٧:١٥ م",
+        "timestamp": "2026-04-23T02:58:22.803Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_13",
+        "level": "success",
+        "message": "تهيئة الراديو بنجاح",
+        "time": "٢٤‏/٤‏/٢٠٢٦ ٢:٣١:٥٤ م",
+        "timestamp": "2026-04-22T22:05:14.585Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_3",
+        "level": "info",
+        "message": "تجديد IP",
+        "time": "٢٣‏/٤‏/٢٠٢٦ ٦:١٣:٤٥ م",
+        "timestamp": "2026-04-22T21:37:40.421Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_22",
+        "level": "info",
+        "message": "اتصال عميل جديد",
+        "time": "٢٠‏/٤‏/٢٠٢٦ ٤:٥١:٥٩ ص",
+        "timestamp": "2026-04-22T19:42:43.471Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_10",
+        "level": "success",
+        "message": "تأسيس اتصال WDS",
+        "time": "٢٣‏/٤‏/٢٠٢٦ ١:٣٩:٢٣ ص",
+        "timestamp": "2026-04-22T19:03:28.591Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_24",
+        "level": "success",
+        "message": "تأسيس اتصال WDS",
+        "time": "٢٤‏/٤‏/٢٠٢٦ ٧:١٧:٥٢ ص",
+        "timestamp": "2026-04-22T00:04:35.771Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_18",
+        "level": "info",
+        "message": "تغيير القناة تلقائياً",
+        "time": "١٩‏/٤‏/٢٠٢٦ ٧:١٦:٣٢ م",
+        "timestamp": "2026-04-21T21:30:53.775Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_20",
+        "level": "warning",
+        "message": "استخدام ذاكرة مرتفع",
+        "time": "٢٢‏/٤‏/٢٠٢٦ ١١:٤٣:٣٧ م",
+        "timestamp": "2026-04-21T19:39:24.784Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_7",
+        "level": "info",
+        "message": "تغيير القناة تلقائياً",
+        "time": "١٩‏/٤‏/٢٠٢٦ ٢:٠٦:٣٩ ص",
+        "timestamp": "2026-04-21T17:55:21.329Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_6",
+        "level": "info",
+        "message": "تغيير القناة تلقائياً",
+        "time": "٢٣‏/٤‏/٢٠٢٦ ٢:٠٩:٣٨ ص",
+        "timestamp": "2026-04-21T07:33:00.693Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_14",
+        "level": "info",
+        "message": "تجديد IP",
+        "time": "٢٣‏/٤‏/٢٠٢٦ ٨:٤٣:٥٣ م",
+        "timestamp": "2026-04-21T00:32:45.597Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_8",
+        "level": "warning",
+        "message": "استخدام ذاكرة مرتفع",
+        "time": "٢٤‏/٤‏/٢٠٢٦ ١٢:٥١:٢٠ ص",
+        "timestamp": "2026-04-20T07:27:43.904Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_26",
+        "level": "error",
+        "message": "فشل استعلام DNS",
+        "time": "٢٣‏/٤‏/٢٠٢٦ ١٠:٠٢:٥٩ م",
+        "timestamp": "2026-04-20T01:23:59.487Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_29",
+        "level": "info",
+        "message": "تغيير القناة تلقائياً",
+        "time": "٢٠‏/٤‏/٢٠٢٦ ٨:٣٧:٢٠ م",
+        "timestamp": "2026-04-19T23:02:20.077Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_16",
+        "level": "info",
+        "message": "تغيير القناة تلقائياً",
+        "time": "٢٢‏/٤‏/٢٠٢٦ ٤:٣٢:١٨ ص",
+        "timestamp": "2026-04-19T22:18:15.646Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_28",
+        "level": "error",
+        "message": "خطأ في منفذ Ethernet",
+        "time": "٢٤‏/٤‏/٢٠٢٦ ١:٥١:٢٣ م",
+        "timestamp": "2026-04-19T17:54:29.237Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_2",
+        "level": "error",
+        "message": "خطأ في منفذ Ethernet",
+        "time": "٢٣‏/٤‏/٢٠٢٦ ٨:٣٧:٥٢ ص",
+        "timestamp": "2026-04-18T23:26:18.002Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_23",
+        "level": "info",
+        "message": "تجديد IP",
+        "time": "٢٢‏/٤‏/٢٠٢٦ ٥:٣٧:٣٣ م",
+        "timestamp": "2026-04-18T21:45:47.699Z"
+      },
+      {
+        "deviceId": "-Or4T5ndVBSsR1WvBHmT",
+        "deviceName": "-Or4T5ndVBSsR1WvBHmT",
+        "id": "log_12",
+        "level": "info",
+        "message": "تجديد IP",
+        "time": "٢٤‏/٤‏/٢٠٢٦ ٤:٣٣:٥٥ م",
+        "timestamp": "2026-04-18T18:28:31.252Z"
+      }
+    ],
+    "-Or4T5yzDuTDQ9B-uPKx": [
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_20",
+        "level": "error",
+        "message": "فشل استعلام DNS",
+        "time": "٢٢‏/٤‏/٢٠٢٦ ٢:١٣:٢٨ ص",
+        "timestamp": "2026-04-25T14:46:19.911Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_3",
+        "level": "error",
+        "message": "فشل اتصال WDS",
+        "time": "٢٠‏/٤‏/٢٠٢٦ ١١:١٠:٢٤ م",
+        "timestamp": "2026-04-25T11:50:26.543Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_6",
+        "level": "info",
+        "message": "اتصال عميل جديد",
+        "time": "٢٠‏/٤‏/٢٠٢٦ ٤:٢٨:٣١ ص",
+        "timestamp": "2026-04-25T09:01:23.163Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_26",
+        "level": "error",
+        "message": "فشل اتصال WDS",
+        "time": "٢٤‏/٤‏/٢٠٢٦ ١:٢٨:٣٤ م",
+        "timestamp": "2026-04-25T08:45:30.449Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_22",
+        "level": "warning",
+        "message": "استخدام ذاكرة مرتفع",
+        "time": "٢٣‏/٤‏/٢٠٢٦ ٩:١٢:٤٥ م",
+        "timestamp": "2026-04-25T05:30:51.283Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_4",
+        "level": "warning",
+        "message": "انخفاض قوة الإشارة",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ٤:٢٤:٥٢ ص",
+        "timestamp": "2026-04-25T00:46:49.400Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_18",
+        "level": "critical",
+        "message": "تجاوز درجة الحرارة المسموح بها",
+        "time": "٢٢‏/٤‏/٢٠٢٦ ٧:٥٩:٣٠ ص",
+        "timestamp": "2026-04-25T00:21:44.594Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_9",
+        "level": "critical",
+        "message": "فقدان إشارة الراديو",
+        "time": "٢٠‏/٤‏/٢٠٢٦ ١٢:٤٣:٢٨ م",
+        "timestamp": "2026-04-24T21:26:26.436Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_12",
+        "level": "error",
+        "message": "فشل استعلام DNS",
+        "time": "٢١‏/٤‏/٢٠٢٦ ٧:٥٢:٥٠ م",
+        "timestamp": "2026-04-24T09:38:34.429Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_21",
+        "level": "info",
+        "message": "تجديد IP",
+        "time": "١٩‏/٤‏/٢٠٢٦ ٦:٤١:٥١ ص",
+        "timestamp": "2026-04-24T02:51:34.666Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_17",
+        "level": "success",
+        "message": "تأسيس اتصال WDS",
+        "time": "١٩‏/٤‏/٢٠٢٦ ٨:١٦:٢٢ ص",
+        "timestamp": "2026-04-23T18:24:44.152Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_16",
+        "level": "critical",
+        "message": "فقدان إشارة الراديو",
+        "time": "٢٢‏/٤‏/٢٠٢٦ ٩:٢٧:٣٣ م",
+        "timestamp": "2026-04-23T05:25:36.804Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_29",
+        "level": "success",
+        "message": "تحديث البرنامج الثابت",
+        "time": "٢٢‏/٤‏/٢٠٢٦ ١١:٢٢:٢٦ م",
+        "timestamp": "2026-04-23T03:01:57.516Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_14",
+        "level": "info",
+        "message": "تجديد IP",
+        "time": "٢١‏/٤‏/٢٠٢٦ ٤:٢٤:٣٥ ص",
+        "timestamp": "2026-04-23T02:46:44.038Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_8",
+        "level": "success",
+        "message": "تهيئة الراديو بنجاح",
+        "time": "٢٣‏/٤‏/٢٠٢٦ ١١:١١:٤٩ م",
+        "timestamp": "2026-04-22T22:29:49.371Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_15",
+        "level": "info",
+        "message": "اتصال عميل جديد",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ١٠:٠٤:٤٢ ص",
+        "timestamp": "2026-04-22T18:34:32.592Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_13",
+        "level": "info",
+        "message": "اتصال عميل جديد",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ٤:٢٧:٠٣ ص",
+        "timestamp": "2026-04-22T18:05:21.657Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_1",
+        "level": "warning",
+        "message": "ارتفاع درجة حرارة المعالج",
+        "time": "٢٢‏/٤‏/٢٠٢٦ ٦:٠١:١٧ م",
+        "timestamp": "2026-04-21T23:06:32.318Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_25",
+        "level": "warning",
+        "message": "انخفاض قوة الإشارة",
+        "time": "٢٣‏/٤‏/٢٠٢٦ ٨:٤٤:٤٦ ص",
+        "timestamp": "2026-04-21T04:34:53.848Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_0",
+        "level": "info",
+        "message": "تجديد IP",
+        "time": "١٩‏/٤‏/٢٠٢٦ ٤:٠١:٠٢ ص",
+        "timestamp": "2026-04-20T23:03:38.316Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_11",
+        "level": "critical",
+        "message": "انقطاع مفاجئ في الطاقة",
+        "time": "١٩‏/٤‏/٢٠٢٦ ٧:٠٤:١٤ ص",
+        "timestamp": "2026-04-20T17:51:19.631Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_7",
+        "level": "info",
+        "message": "اتصال عميل جديد",
+        "time": "٢٢‏/٤‏/٢٠٢٦ ٤:٥٥:٣١ ص",
+        "timestamp": "2026-04-20T11:28:30.961Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_5",
+        "level": "critical",
+        "message": "انقطاع مفاجئ في الطاقة",
+        "time": "٢٣‏/٤‏/٢٠٢٦ ٩:٢٨:٢٤ ص",
+        "timestamp": "2026-04-20T09:26:09.413Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_24",
+        "level": "critical",
+        "message": "فقدان إشارة الراديو",
+        "time": "٢٣‏/٤‏/٢٠٢٦ ١١:٥٨:٤٣ ص",
+        "timestamp": "2026-04-20T05:02:14.284Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_23",
+        "level": "warning",
+        "message": "انخفاض قوة الإشارة",
+        "time": "٢٤‏/٤‏/٢٠٢٦ ١١:٢٩:٢٤ م",
+        "timestamp": "2026-04-20T01:37:31.304Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_10",
+        "level": "info",
+        "message": "اتصال عميل جديد",
+        "time": "٢٢‏/٤‏/٢٠٢٦ ٧:٠٨:٣٧ م",
+        "timestamp": "2026-04-20T01:32:28.900Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_2",
+        "level": "error",
+        "message": "خطأ في منفذ Ethernet",
+        "time": "٢٠‏/٤‏/٢٠٢٦ ٦:١٧:٠٥ م",
+        "timestamp": "2026-04-19T16:03:47.977Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_28",
+        "level": "info",
+        "message": "تجديد IP",
+        "time": "١٩‏/٤‏/٢٠٢٦ ١:٥٢:١٨ ص",
+        "timestamp": "2026-04-19T15:41:05.278Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_19",
+        "level": "info",
+        "message": "تجديد IP",
+        "time": "٢٣‏/٤‏/٢٠٢٦ ١:٠٥:٢٣ م",
+        "timestamp": "2026-04-19T15:02:33.810Z"
+      },
+      {
+        "deviceId": "-Or4T5yzDuTDQ9B-uPKx",
+        "deviceName": "-Or4T5yzDuTDQ9B-uPKx",
+        "id": "log_27",
+        "level": "info",
+        "message": "تغيير القناة تلقائياً",
+        "time": "١٩‏/٤‏/٢٠٢٦ ٤:٥٣:٣١ م",
+        "timestamp": "2026-04-19T06:48:08.411Z"
+      }
+    ],
+    "-Or4T6BvSmATWJlQw7NL": [
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_19",
+        "level": "info",
+        "message": "تجديد IP",
+        "time": "٢٠‏/٤‏/٢٠٢٦ ١٠:٢١:٤٨ م",
+        "timestamp": "2026-04-25T13:08:25.014Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_16",
+        "level": "critical",
+        "message": "تجاوز درجة الحرارة المسموح بها",
+        "time": "٢١‏/٤‏/٢٠٢٦ ٥:٠٦:٣١ ص",
+        "timestamp": "2026-04-25T13:01:28.235Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_9",
+        "level": "success",
+        "message": "تأسيس اتصال WDS",
+        "time": "١٩‏/٤‏/٢٠٢٦ ٢:٤٢:١١ م",
+        "timestamp": "2026-04-24T15:59:56.556Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_26",
+        "level": "info",
+        "message": "اتصال عميل جديد",
+        "time": "٢٤‏/٤‏/٢٠٢٦ ١١:٣٢:٤٥ م",
+        "timestamp": "2026-04-24T00:50:59.367Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_13",
+        "level": "info",
+        "message": "تجديد IP",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ٧:٠٩:٠٤ ص",
+        "timestamp": "2026-04-23T23:25:50.535Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_3",
+        "level": "error",
+        "message": "فشل اتصال WDS",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ١١:٢٥:٤٨ ص",
+        "timestamp": "2026-04-23T07:37:02.509Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_2",
+        "level": "critical",
+        "message": "فقدان إشارة الراديو",
+        "time": "٢٢‏/٤‏/٢٠٢٦ ٧:١٢:٠٣ ص",
+        "timestamp": "2026-04-23T06:24:21.056Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_24",
+        "level": "critical",
+        "message": "تجاوز درجة الحرارة المسموح بها",
+        "time": "٢٣‏/٤‏/٢٠٢٦ ٢:١٧:٠٦ م",
+        "timestamp": "2026-04-23T04:30:52.336Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_22",
+        "level": "critical",
+        "message": "تجاوز درجة الحرارة المسموح بها",
+        "time": "٢١‏/٤‏/٢٠٢٦ ٩:٥٥:٤٤ ص",
+        "timestamp": "2026-04-22T09:48:17.172Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_27",
+        "level": "warning",
+        "message": "ارتفاع درجة حرارة المعالج",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ٤:٠٩:١٩ ص",
+        "timestamp": "2026-04-22T08:45:21.421Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_21",
+        "level": "info",
+        "message": "تجديد IP",
+        "time": "٢١‏/٤‏/٢٠٢٦ ٥:٢٠:٤٥ ص",
+        "timestamp": "2026-04-22T05:04:29.005Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_1",
+        "level": "critical",
+        "message": "فقدان إشارة الراديو",
+        "time": "١٩‏/٤‏/٢٠٢٦ ٨:٠٩:٠٢ م",
+        "timestamp": "2026-04-22T04:42:16.773Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_11",
+        "level": "success",
+        "message": "تحديث البرنامج الثابت",
+        "time": "٢٤‏/٤‏/٢٠٢٦ ٩:٥٥:٢٤ ص",
+        "timestamp": "2026-04-22T04:06:13.689Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_20",
+        "level": "info",
+        "message": "تجديد IP",
+        "time": "٢٤‏/٤‏/٢٠٢٦ ١١:٢٨:١٥ ص",
+        "timestamp": "2026-04-21T23:46:32.556Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_15",
+        "level": "success",
+        "message": "تأسيس اتصال WDS",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ٦:٠٢:٤١ ص",
+        "timestamp": "2026-04-21T21:52:22.356Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_6",
+        "level": "info",
+        "message": "اتصال عميل جديد",
+        "time": "٢١‏/٤‏/٢٠٢٦ ١٢:١١:٤٠ م",
+        "timestamp": "2026-04-21T20:10:39.313Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_29",
+        "level": "info",
+        "message": "اتصال عميل جديد",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ٥:٠٣:٤٢ ص",
+        "timestamp": "2026-04-21T17:40:02.124Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_10",
+        "level": "info",
+        "message": "تجديد IP",
+        "time": "٢٣‏/٤‏/٢٠٢٦ ٤:٥١:١٧ م",
+        "timestamp": "2026-04-21T07:27:30.477Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_18",
+        "level": "warning",
+        "message": "ارتفاع درجة حرارة المعالج",
+        "time": "٢٤‏/٤‏/٢٠٢٦ ٣:٣١:٤٣ م",
+        "timestamp": "2026-04-21T03:03:40.220Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_8",
+        "level": "error",
+        "message": "فشل استعلام DNS",
+        "time": "٢٤‏/٤‏/٢٠٢٦ ١٢:١٦:٢٣ ص",
+        "timestamp": "2026-04-20T19:20:56.706Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_12",
+        "level": "info",
+        "message": "تغيير القناة تلقائياً",
+        "time": "١٩‏/٤‏/٢٠٢٦ ٦:٥٥:٣٨ ص",
+        "timestamp": "2026-04-20T07:20:05.266Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_28",
+        "level": "warning",
+        "message": "استخدام ذاكرة مرتفع",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ٥:٢٠:١٧ م",
+        "timestamp": "2026-04-20T06:18:19.645Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_23",
+        "level": "warning",
+        "message": "ارتفاع درجة حرارة المعالج",
+        "time": "٢٣‏/٤‏/٢٠٢٦ ٢:٢٧:١٣ م",
+        "timestamp": "2026-04-20T05:32:35.425Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_17",
+        "level": "success",
+        "message": "تهيئة الراديو بنجاح",
+        "time": "٢٠‏/٤‏/٢٠٢٦ ٣:٠١:١٩ ص",
+        "timestamp": "2026-04-20T01:24:45.023Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_5",
+        "level": "info",
+        "message": "اتصال عميل جديد",
+        "time": "٢٣‏/٤‏/٢٠٢٦ ٦:٢٠:٢٤ م",
+        "timestamp": "2026-04-19T23:34:21.376Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_4",
+        "level": "info",
+        "message": "اتصال عميل جديد",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ٢:٤٤:٣١ ص",
+        "timestamp": "2026-04-19T22:46:04.045Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_0",
+        "level": "info",
+        "message": "تجديد IP",
+        "time": "٢٢‏/٤‏/٢٠٢٦ ٥:٠٦:١٦ ص",
+        "timestamp": "2026-04-19T19:10:19.819Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_25",
+        "level": "critical",
+        "message": "انقطاع مفاجئ في الطاقة",
+        "time": "٢٤‏/٤‏/٢٠٢٦ ٣:١٤:٢١ ص",
+        "timestamp": "2026-04-19T15:31:38.980Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_7",
+        "level": "success",
+        "message": "تحديث البرنامج الثابت",
+        "time": "٢٠‏/٤‏/٢٠٢٦ ٧:١٨:٢٧ ص",
+        "timestamp": "2026-04-19T08:41:50.252Z"
+      },
+      {
+        "deviceId": "-Or4T6BvSmATWJlQw7NL",
+        "deviceName": "-Or4T6BvSmATWJlQw7NL",
+        "id": "log_14",
+        "level": "critical",
+        "message": "تجاوز درجة الحرارة المسموح بها",
+        "time": "٢٠‏/٤‏/٢٠٢٦ ٢:٥٣:٣٠ م",
+        "timestamp": "2026-04-19T02:02:26.699Z"
+      }
+    ],
+    "system": {
+      "-Or4ZrLll6qQG4wFuPBJ": {
+        "deviceName": "System",
+        "level": "success",
+        "message": "مزامنة البيانات مع GitHub",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ٧:٥٧:٤٨ م",
+        "timestamp": "2026-04-25T16:57:48.882Z"
+      },
+      "-Or4ZvLgzzhs0r2DGKat": {
+        "deviceName": "System",
+        "level": "success",
+        "message": "إنشاء مفتاح UNMS تلقائي",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ٧:٥٨:٠٥ م",
+        "timestamp": "2026-04-25T16:58:05.261Z"
+      },
+      "-Or4_3Ht4VXxU2zCv9E7": {
+        "deviceName": "System",
+        "level": "success",
+        "message": "توليد زوج مفاتيح SSH",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ٧:٥٨:٤١ م",
+        "timestamp": "2026-04-25T16:58:41.838Z"
+      },
+      "-Or4_lp6FG_sxv4kWhCY": {
+        "deviceName": "System",
+        "level": "success",
+        "message": "توليد زوج مفاتيح SSH",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ٨:٠١:٤٨ م",
+        "timestamp": "2026-04-25T17:01:48.360Z"
+      },
+      "-Or4a1p-QOVLRZB9Eo6G": {
+        "deviceName": "System",
+        "level": "success",
+        "message": "تطبيق الإعدادات على AP F5R",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ٨:٠٢:٥٧ م",
+        "timestamp": "2026-04-25T17:02:57.987Z"
+      },
+      "-Or4a5ZvcBqaQPrdnUz9": {
+        "deviceName": "System",
+        "level": "success",
+        "message": "تطبيق الإعدادات على AP F5R",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ٨:٠٣:١٣ م",
+        "timestamp": "2026-04-25T17:03:13.343Z"
+      },
+      "-Or4aOUPIQSQnS5vS32n": {
+        "deviceName": "System",
+        "level": "success",
+        "message": "تطبيق الإعدادات على AP F5R",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ٨:٠٤:٣٠ م",
+        "timestamp": "2026-04-25T17:04:30.807Z"
+      },
+      "-Or4bgj97okfc4o6z_eR": {
+        "deviceName": "System",
+        "level": "success",
+        "message": "إنشاء مفتاح UNMS تلقائي",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ٨:١٠:١١ م",
+        "timestamp": "2026-04-25T17:10:11.777Z"
+      },
+      "-Or4c12fXDtcL4J2WwUa": {
+        "deviceName": "System",
+        "level": "success",
+        "message": "إنشاء مفتاح UNMS لـ NanoStation M5",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ٨:١١:٣٩ م",
+        "timestamp": "2026-04-25T17:11:39.107Z"
+      },
+      "-Or4c99L3suixCeaHGdA": {
+        "deviceName": "System",
+        "level": "success",
+        "message": "تطبيق الإعدادات على AP F5R",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ٨:١٢:١٢ م",
+        "timestamp": "2026-04-25T17:12:12.301Z"
+      },
+      "-Or4cHXiNXSffK4zEOz2": {
+        "deviceName": "System",
+        "level": "success",
+        "message": "توليد زوج مفاتيح SSH",
+        "time": "٢٥‏/٤‏/٢٠٢٦ ٨:١٢:٤٦ م",
+        "timestamp": "2026-04-25T17:12:46.630Z"
+      }
+    }
+  },
+  "devices": {
+    "-Or4T5ZEEZjAlB7AJJCp": {
+      "configured": true,
+      "hostname": "AP F5R",
+      "ip": "192.168.1.20",
+      "lastAutoConfig": "2026-04-25T17:20:47.479Z",
+      "lastConfigPush": "2026-04-25T17:12:11.958Z",
+      "mac": "DC:9F:DB:9A:AB:D6",
+      "mode": "AP WDS",
+      "model": "NanoStation loco M5",
+      "network": {
+        "gateway": "0.0.0.0",
+        "ip": "192.168.1.20",
+        "netmask": "255.255.255.0"
+      },
+      "services": {
+        "pingWatchdog": false,
+        "snmp": true,
+        "ssh": true,
+        "webServer": true
+      },
+      "sshPublicKey": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDH3sd5ULjt9UEyi7sftzIkE2/3A4vg3V3l8kAMQ8yGENx4o8goFpNkKUxytFLeNVn6fIycO/nfevIDGGI2qSYRV97TQ5C0GckzkOvdwp4uCp1lT9dISWFE7NyJlGIFEuiqDluh8unLLtQOvpi5LIAd1/MX1+WOZJd3rzzUxtMRtwMag618vVW28BsFqqFaSGW4x96sogGGHqT9PcvsPUF56qxO5nGRc7fFm9g2z7UY9hHu6aF6bgBN21jzq0XUnh+az91oC9ikSX8O64Qf/gz+NzfVt1842DBhtm9AmVCl/lyFJ6Lf9e1RcbCx1SmpihrGemmpbSYAVN+Bz+oyX0GJ f5r@device",
+      "ssid": "F5R",
+      "status": "online",
+      "version": "v6.3.24",
+      "wireless": {
+        "channelWidth": "20",
+        "distance": 1.1,
+        "frequency": "5180",
+        "security": "WPA-AES",
+        "ssid": "F5R",
+        "txPower": 23
+      }
+    },
+    "-Or4T5ndVBSsR1WvBHmT": {
+      "configured": true,
+      "firmware": "v6.2.0",
+      "ip": "10.0.197.25",
+      "lastAutoConfig": "2026-04-25T17:20:47.480Z",
+      "mac": "0C:EA:14:96:6C:EC",
+      "mode": "STA",
+      "name": "bilal al7or",
+      "product": "LiteBeam M5",
+      "ssid": "Q_U_001",
+      "status": "online"
+    },
+    "-Or4T5yzDuTDQ9B-uPKx": {
+      "configured": true,
+      "firmware": "v8.7.19",
+      "ip": "10.100.198.22",
+      "lastAutoConfig": "2026-04-25T17:20:47.480Z",
+      "mac": "1C:6A:1B:B6:B1:1E",
+      "mode": "AP",
+      "name": "Q_U_001",
+      "product": "LiteAP GPS",
+      "ssid": "Q_U_001",
+      "status": "online"
+    },
+    "-Or4T6BvSmATWJlQw7NL": {
+      "configured": true,
+      "firmware": "v6.3.24",
+      "ip": "10.0.197.60",
+      "lastAutoConfig": "2026-04-25T17:20:47.481Z",
+      "mac": "28:70:4E:B0:C2:F1",
+      "mode": "STA",
+      "name": "Abdul Karim Al-Salem",
+      "product": "LiteBeam M5",
+      "ssid": "Q_U_001",
+      "status": "online"
+    },
+    "0CEA14A673E5": {
+      "autoConnected": true,
+      "configured": true,
+      "hostname": "LiteBeam-M5",
+      "ip": "192.168.1.21",
+      "lastAutoConfig": "2026-04-25T17:20:47.481Z",
+      "mac": "0C:EA:14:A6:73:E5",
+      "status": "online",
+      "unmsKey": "UNMS-14A673E5-moelv4va"
+    },
+    "24A43C112233": {
+      "autoManaged": true,
+      "configured": true,
+      "ip": "10.0.0.5",
+      "lastAutoConfig": "2026-04-25T17:20:47.481Z",
+      "lastSeen": 1777137433105,
+      "mac": "24:A4:3C:11:22:33",
+      "name": "UAP-AC-LR",
+      "status": "online"
+    },
+    "24A43CAABBCC": {
+      "autoConnected": true,
+      "configured": true,
+      "hostname": "AP-F5R-Pro",
+      "ip": "10.0.0.50",
+      "lastAutoConfig": "2026-04-25T17:20:47.481Z",
+      "mac": "24:A4:3C:AA:BB:CC",
+      "status": "online",
+      "unmsKey": "UNMS-3CAABBCC-moelv53f"
+    },
+    "6CF2B2D": {
+      "config": {
+        "network": {
+          "dns1": "8.8.8.8",
+          "dns2": "8.8.4.4",
+          "gateway": "0.0.0.0",
+          "ipAssignment": "dhcp",
+          "mode": "bridge",
+          "netmask": "255.255.255.0",
+          "staticIp": "192.168.1.20"
+        },
+        "services": {
+          "ntpServer": "0.ubnt.pool.ntp.org",
+          "snmpEnabled": false,
+          "sshEnabled": true,
+          "sshPort": 22,
+          "telnetEnabled": true,
+          "telnetPort": 23,
+          "timezone": "UTC"
+        },
+        "wireless": {
+          "ackDistance": 600,
+          "channelWidth": "20",
+          "frequency": "5200",
+          "hideSSID": "disabled",
+          "l2Isolation": "disabled",
+          "mode": "master",
+          "security": "none",
+          "ssid": "F5R",
+          "txPower": 27,
+          "wpaPsk": ""
+        }
+      },
+      "configured": true,
+      "connectedClients": 6,
+      "hostname": "LiteBeam-5AC-Station",
+      "ip": "192.168.1.21",
+      "keyHash": "6CF2B2D",
+      "lastAutoConfig": "2026-04-25T17:20:47.481Z",
+      "mac": "0C:EA:14:A6:73:E5",
+      "model": "LiteBeam 5AC Gen2",
+      "status": "online",
+      "unmsKey": "UNMS-lXGT7kyu-MOEL"
+    },
+    "923D3165": {
+      "config": {
+        "network": {
+          "dns1": "8.8.8.8",
+          "dns2": "8.8.4.4",
+          "gateway": "0.0.0.0",
+          "ipAssignment": "dhcp",
+          "mode": "bridge",
+          "netmask": "255.255.255.0",
+          "staticIp": "192.168.1.20"
+        },
+        "services": {
+          "ntpServer": "0.ubnt.pool.ntp.org",
+          "snmpEnabled": false,
+          "sshEnabled": true,
+          "sshPort": 22,
+          "telnetEnabled": true,
+          "telnetPort": 23,
+          "timezone": "UTC"
+        },
+        "wireless": {
+          "ackDistance": 600,
+          "channelWidth": "20",
+          "frequency": "5200",
+          "hideSSID": "disabled",
+          "l2Isolation": "disabled",
+          "mode": "master",
+          "security": "none",
+          "ssid": "F5R",
+          "txPower": 27,
+          "wpaPsk": ""
+        }
+      },
+      "configured": true,
+      "connectedClients": 7,
+      "hostname": "NanoStation-M5-AP",
+      "ip": "192.168.1.20",
+      "keyHash": "923D3165",
+      "lastAutoConfig": "2026-04-25T17:20:47.481Z",
+      "mac": "DC:9F:DB:9A:AB:D6",
+      "model": "NanoStation M5",
+      "status": "online",
+      "unmsKey": "UNMS-Whg7DJLw-MOEL"
+    },
+    "DC9FDB9AABD6": {
+      "autoConnected": true,
+      "configured": true,
+      "hostname": "NanoStation-5AC",
+      "ip": "192.168.1.20",
+      "lastAutoConfig": "2026-04-25T17:20:47.481Z",
+      "mac": "DC:9F:DB:9A:AB:D6",
+      "status": "online",
+      "unmsKey": "UNMS-DB9AABD6-moelv43g"
+    },
+    "E063DA778899": {
+      "autoManaged": true,
+      "configured": true,
+      "ip": "10.0.0.1",
+      "lastAutoConfig": "2026-04-25T17:20:47.481Z",
+      "lastSeen": 1777137433346,
+      "mac": "E0:63:DA:77:88:99",
+      "name": "EdgeRouterX",
+      "status": "online"
+    }
+  },
+  "epayments": [
+    {
+      "icon": "fas fa-store-alt",
+      "info": "من إحدى مراكز نقاط البيع الخاصة بنا",
+      "title": "نقاط البيع"
+    },
+    {
+      "icon": "fas fa-university",
+      "info": "تسديد الفاتورة من تطبيق بنك البركة",
+      "title": "بنك البركة"
+    },
+    {
+      "icon": "fas fa-exchange-alt",
+      "info": "الاسم: الشركة الألفية - رقم: 0989230232",
+      "title": "شركة الهرم"
+    },
+    {
+      "icon": "fas fa-building-columns",
+      "info": "رقم الحساب: 7001319",
+      "title": "بنك الشام"
+    },
+    {
+      "icon": "fas fa-landmark",
+      "info": "رقم الحساب: 0380259366",
+      "title": "بنك بيمو السعودي الفرنسي"
+    },
+    {
+      "icon": "fas fa-mobile-alt",
+      "info": "الاسم: الألفية - F5R (مرتين شهرياً)",
+      "title": "MTN & Syriatel"
+    }
+  ],
+  "heroes": [
+    {
+      "btn": "معرفة المزيد",
+      "desc": "اتصال ثابت وسريع مع خدمة ADSL من F5R NET",
+      "title": "إنترنت منزلي"
+    },
+    {
+      "btn": "حمل التطبيق الآن",
+      "desc": "تحكم في باقاتك وطلباتك بسهولة عبر التطبيق",
+      "title": "تطبيق F5R"
+    },
+    {
+      "btn": "تواصل معنا",
+      "desc": "فريقنا جاهز لمساعدتك في أي وقت لحل المشاكل",
+      "title": "دعم فني 24/7"
+    },
+    {
+      "btn": "اطلب الآن",
+      "desc": "تابع موقع مركبتك في الوقت الفعلي مع GPS",
+      "title": "تتبع المركبات"
+    },
+    {
+      "btn": "اشترك الآن",
+      "desc": "أفضل القنوات بجودة عالية مع IPTV",
+      "title": "تلفزيونك بلا حدود"
+    },
+    {
+      "btn": "معرفة المزيد",
+      "desc": "ادفع بسرعة وأمان عبر هاتفك",
+      "title": "الدفع الإلكتروني"
+    }
+  ],
+  "iptv_providers": [
+    {
+      "name": "Pro TV",
+      "packages": [
+        {
+          "desc": "79 قناة + 40 مشفرة",
+          "name": "الرياضية",
+          "price": 17500
+        },
+        {
+          "desc": "92 قناة + 53 مشفرة",
+          "name": "العائلية",
+          "price": 22000
+        },
+        {
+          "desc": "104 قناة + 65 مشفرة",
+          "name": "المميزة",
+          "price": 29000
+        },
+        {
+          "desc": "115 قناة + 76 مشفرة (مجاني)",
+          "name": "اكستريم",
+          "price": 0
+        }
+      ]
+    },
+    {
+      "name": "Like TV",
+      "packages": [
+        {
+          "desc": "96 قناة",
+          "name": "الرياضية",
+          "price": 17500
+        },
+        {
+          "desc": "106 قناة",
+          "name": "العائلية",
+          "price": 22000
+        },
+        {
+          "desc": "128 قناة",
+          "name": "دايموند",
+          "price": 29000
+        }
+      ]
+    }
+  ],
+  "offers": [
+    {
+      "desc": "سرعة إنترنت مضاعفة 4 مرات خلال فترة النهار",
+      "title": "Speed"
+    },
+    {
+      "desc": "تجربة إنترنت متميزة بتقليل نسبة التشاركية إلى 1/4",
+      "title": "VIP"
+    },
+    {
+      "desc": "اشترك الآن واحجز بوابتك إلى عالم الإنترنت السريع",
+      "title": "اشتراك جديد"
+    }
+  ],
+  "settings": {
+    "createdAt": "2026-04-25T04:52:10.087Z",
+    "defaultTrialDays": 30,
+    "siteName": "Smart City",
+    "version": "2.0"
+  },
+  "unms_keys": {
+    "-Or4T7FwXoUv9_FZQ3eg": {
+      "active": true,
+      "createdAt": "2026-04-25T16:28:23.255Z",
+      "device": "auto",
+      "key": "UNMS-0528T0DFRT-moejzyon"
+    },
+    "14A673E5": {
+      "active": true,
+      "created": 1777137637222,
+      "deviceMac": "0C:EA:14:A6:73:E5",
+      "key": "UNMS-14A673E5-moelv4va"
+    },
+    "1A693E8F": {
+      "createdAt": "2026-04-25T17:10:11.399Z",
+      "deviceName": "Auto Generated",
+      "expiresAt": "2027-04-25T17:10:11.399Z",
+      "hash": "1A693E8F",
+      "ip": "0.0.0.0",
+      "isActive": true,
+      "key": "UNMS-WShA413g-MOEL",
+      "mac": "AA:BB:CC:DD:EE:FF",
+      "type": "unms"
+    },
+    "3CAABBCC": {
+      "active": true,
+      "created": 1777137637515,
+      "deviceMac": "24:A4:3C:AA:BB:CC",
+      "key": "UNMS-3CAABBCC-moelv53f"
+    },
+    "4B815E90": {
+      "createdAt": "2026-04-25T16:58:05.035Z",
+      "deviceName": "Auto Generated",
+      "expiresAt": "2027-04-25T16:58:05.035Z",
+      "hash": "4B815E90",
+      "ip": "0.0.0.0",
+      "isActive": true,
+      "key": "UNMS-bAWmVUPE-MOEL",
+      "mac": "AA:BB:CC:DD:EE:FF",
+      "type": "unms"
+    },
+    "6CF2B2D": {
+      "createdAt": "2026-04-25T17:12:04.853Z",
+      "deviceName": "LiteBeam-5AC-Station",
+      "expiresAt": "2027-04-25T17:12:04.853Z",
+      "hash": "6CF2B2D",
+      "ip": "192.168.1.21",
+      "isActive": true,
+      "key": "UNMS-lXGT7kyu-MOEL",
+      "mac": "0C:EA:14:A6:73:E5",
+      "type": "unms"
+    },
+    "923D3165": {
+      "createdAt": "2026-04-25T17:12:04.418Z",
+      "deviceName": "NanoStation-M5-AP",
+      "expiresAt": "2027-04-25T17:12:04.418Z",
+      "hash": "923D3165",
+      "ip": "192.168.1.20",
+      "isActive": true,
+      "key": "UNMS-Whg7DJLw-MOEL",
+      "mac": "DC:9F:DB:9A:AB:D6",
+      "type": "unms"
+    },
+    "DB9AABD6": {
+      "active": true,
+      "created": 1777137636220,
+      "deviceMac": "DC:9F:DB:9A:AB:D6",
+      "key": "UNMS-DB9AABD6-moelv43g"
+    }
+  },
+  "users": {
+    "0": {
+      "city": "دمشق",
+      "id": 1,
+      "lastPayment": "2026-04-20",
+      "name": "أحمد العلي",
+      "phone": "0935123456",
+      "plan": "8 Mb VIP",
+      "status": "نشط"
+    },
+    "1": {
+      "city": "حمص",
+      "id": 2,
+      "lastPayment": "2026-04-18",
+      "name": "سارة خالد",
+      "phone": "0944789654",
+      "plan": "4 Mb عائلي",
+      "status": "نشط"
+    },
+    "2": {
+      "city": "اللاذقية",
+      "id": 3,
+      "lastPayment": "2026-03-10",
+      "name": "محمد ناصر",
+      "phone": "0966554321",
+      "plan": "2 Mb طلابي",
+      "status": "موقوف"
+    },
+    "3": {
+      "city": "طرطوس",
+      "id": 4,
+      "lastPayment": "2026-04-22",
+      "name": "رنا سعيد",
+      "phone": "0933789123",
+      "plan": "16 Mb Premium",
+      "status": "نشط"
+    },
+    "4": {
+      "city": "حماة",
+      "id": 5,
+      "lastPayment": "2026-04-19",
+      "name": "علي حسين",
+      "phone": "0956123987",
+      "plan": "1 Mb أساسية",
+      "status": "نشط"
+    },
+    "5": {
+      "city": "دمشق",
+      "id": 6,
+      "lastPayment": "2026-04-21",
+      "name": "نور الهدى",
+      "phone": "0941122334",
+      "plan": "8 Mb Speed",
+      "status": "نشط"
+    },
+    "6": {
+      "city": "ريف دمشق",
+      "id": 7,
+      "lastPayment": "2026-02-28",
+      "name": "يوسف أحمد",
+      "phone": "0939876543",
+      "plan": "4 Mb VIP",
+      "status": "موقوف"
+    },
+    "7": {
+      "city": "حمص",
+      "id": 8,
+      "lastPayment": "2026-04-17",
+      "name": "لينا محمد",
+      "phone": "0965544332",
+      "plan": "2 Mb أساسية",
+      "status": "نشط"
+    },
+    "8": {
+      "city": "دمشق",
+      "id": 9,
+      "lastPayment": "2026-04-20",
+      "name": "جديد",
+      "phone": "0935123456",
+      "plan": "8 Mb VIP",
+      "status": "نشط"
+    },
+    "9": {
+      "city": "دمشق",
+      "id": 10,
+      "lastPayment": "2026-04-20",
+      "name": "جديد",
+      "phone": "0935123456",
+      "plan": "8 Mb VIP",
+      "status": "نشط"
+    },
+    "10": {
+      "city": "دمشق",
+      "id": 11,
+      "lastPayment": "2026-04-20",
+      "name": "جديد",
+      "phone": "0935123456",
+      "plan": "8 Mb VIP",
+      "status": "نشط"
+    },
+    "admin": {
+      "city": "",
+      "id": 1777099065348,
+      "name": "admin",
+      "password": "admin",
+      "phone": "",
+      "plan": "trial",
+      "status": "نشط"
+    }
+  }
+}
