@@ -1,0 +1,138 @@
+{
+  "site": {
+    "name": "F5R NET",
+    "fullName": "الشركة الألفية لخدمات الإنترنت",
+    "version": "3.0.0",
+    "description": "أسرع خدمة إنترنت في سوريا – ADSL، IPTV، باقات إضافية، دفع إلكتروني",
+    "contact": {
+      "phone": "011-9270",
+      "whatsapp": "+963996802720",
+      "email": "info@f5r.net"
+    }
+  },
+  "users": [
+    { "id": 1, "name": "أحمد العلي", "phone": "0935123456", "plan": "8 Mb VIP", "city": "دمشق", "status": "نشط", "lastPayment": "2026-04-20" },
+    { "id": 2, "name": "سارة خالد", "phone": "0944789654", "plan": "4 Mb عائلي", "city": "حمص", "status": "نشط", "lastPayment": "2026-04-18" },
+    { "id": 3, "name": "محمد ناصر", "phone": "0966554321", "plan": "2 Mb طلابي", "city": "اللاذقية", "status": "موقوف", "lastPayment": "2026-03-10" },
+    { "id": 4, "name": "رنا سعيد", "phone": "0933789123", "plan": "16 Mb Premium", "city": "طرطوس", "status": "نشط", "lastPayment": "2026-04-22" },
+    { "id": 5, "name": "علي حسين", "phone": "0956123987", "plan": "1 Mb أساسية", "city": "حماة", "status": "نشط", "lastPayment": "2026-04-19" },
+    { "id": 6, "name": "نور الهدى", "phone": "0941122334", "plan": "8 Mb Speed", "city": "دمشق", "status": "نشط", "lastPayment": "2026-04-21" },
+    { "id": 7, "name": "يوسف أحمد", "phone": "0939876543", "plan": "4 Mb VIP", "city": "ريف دمشق", "status": "موقوف", "lastPayment": "2026-02-28" },
+    { "id": 8, "name": "لينا محمد", "phone": "0965544332", "plan": "2 Mb أساسية", "city": "حمص", "status": "نشط", "lastPayment": "2026-04-17" }
+  ],
+  "adsl_plans": [
+    { "title": "1 Mb", "price": 18500, "quota": "50 GB", "speedAfter": "256 Kb", "type": "أساسية" },
+    { "title": "2 Mb", "price": 24000, "quota": "85 GB", "speedAfter": "256 Kb", "type": "أساسية" },
+    { "title": "4 Mb", "price": 38000, "quota": "140 GB", "speedAfter": "512 Kb", "type": "أساسية" },
+    { "title": "8 Mb", "price": 64000, "quota": "175 GB", "speedAfter": "1 Mb", "type": "أساسية" },
+    { "title": "16 Mb", "price": 83000, "quota": "225 GB", "speedAfter": "2 Mb", "type": "أساسية" },
+    { "title": "1 Mb", "price": 29500, "quota": "50 GB", "speedAfter": "256 Kb", "type": "VIP" },
+    { "title": "2 Mb", "price": 37000, "quota": "85 GB", "speedAfter": "256 Kb", "type": "VIP" },
+    { "title": "4 Mb", "price": 65000, "quota": "140 GB", "speedAfter": "512 Kb", "type": "VIP" },
+    { "title": "8 Mb", "price": 118000, "quota": "175 GB", "speedAfter": "1 Mb", "type": "VIP" },
+    { "title": "16 Mb", "price": 176000, "quota": "225 GB", "speedAfter": "2 Mb", "type": "VIP" },
+    { "title": "1 Mb", "price": 22500, "quota": "55 GB", "speedAfter": "256 Kb", "type": "Speed" },
+    { "title": "2 Mb", "price": 30000, "quota": "95 GB", "speedAfter": "256 Kb", "type": "Speed" },
+    { "title": "1 Mb", "price": 32000, "quota": "110 GB", "speedAfter": "256 Kb", "type": "Speed عائلي" },
+    { "title": "2 Mb", "price": 44000, "quota": "190 GB", "speedAfter": "256 Kb", "type": "Speed عائلي" },
+    { "title": "1 Mb", "price": 26000, "quota": "75 GB", "speedAfter": "256 Kb", "type": "طلابي" },
+    { "title": "2 Mb", "price": 34900, "quota": "125 GB", "speedAfter": "256 Kb", "type": "طلابي" },
+    { "title": "4 Mb", "price": 52800, "quota": "200 GB", "speedAfter": "512 Kb", "type": "طلابي" },
+    { "title": "8 Mb", "price": 80800, "quota": "260 GB", "speedAfter": "1 Mb", "type": "طلابي" },
+    { "title": "1 Mb", "price": 26500, "quota": "100 GB", "speedAfter": "256 Kb", "type": "عائلي" },
+    { "title": "2 Mb", "price": 38600, "quota": "170 GB", "speedAfter": "256 Kb", "type": "عائلي" },
+    { "title": "4 Mb", "price": 58900, "quota": "280 GB", "speedAfter": "512 Kb", "type": "عائلي" },
+    { "title": "8 Mb", "price": 86700, "quota": "350 GB", "speedAfter": "1 Mb", "type": "عائلي" },
+    { "title": "1 Mb", "price": 31800, "quota": "150 GB", "speedAfter": "256 Kb", "type": "Premium" },
+    { "title": "2 Mb", "price": 40800, "quota": "200 GB", "speedAfter": "256 Kb", "type": "Premium" },
+    { "title": "4 Mb", "price": 61500, "quota": "300 GB", "speedAfter": "512 Kb", "type": "Premium" },
+    { "title": "8 Mb", "price": 93800, "quota": "400 GB", "speedAfter": "1 Mb", "type": "Premium" },
+    { "title": "1 Mb", "price": 37600, "quota": "100 GB", "speedAfter": "256 Kb", "type": "VIP عائلي" },
+    { "title": "2 Mb", "price": 49000, "quota": "170 GB", "speedAfter": "256 Kb", "type": "VIP عائلي" },
+    { "title": "4 Mb", "price": 86000, "quota": "280 GB", "speedAfter": "512 Kb", "type": "VIP عائلي" },
+    { "title": "8 Mb", "price": 137000, "quota": "350 GB", "speedAfter": "1 Mb", "type": "VIP عائلي" },
+    { "title": "16 Mb", "price": 205500, "quota": "450 GB", "speedAfter": "2 Mb", "type": "VIP عائلي" }
+  ],
+  "bundles": [
+    { "title": "5GB", "price": 1800 },
+    { "title": "10GB", "price": 3300 },
+    { "title": "20GB", "price": 5700 },
+    { "title": "30GB", "price": 7600 },
+    { "title": "50GB", "price": 11500 },
+    { "title": "75GB", "price": 13500 },
+    { "title": "100GB", "price": 19000 },
+    { "title": "200GB", "price": 35000 },
+    { "title": "500GB", "price": 83500 },
+    { "title": "1000GB", "price": 152500 },
+    { "title": "5000GB", "price": 747000 }
+  ],
+  "iptv": [
+    {
+      "provider": "Pro TV",
+      "packages": [
+        { "name": "الرياضية", "price": 17500, "desc": "79 قناة + 40 مشفرة" },
+        { "name": "العائلية", "price": 22000, "desc": "92 قناة + 53 مشفرة" },
+        { "name": "المميزة", "price": 29000, "desc": "104 قناة + 65 مشفرة" },
+        { "name": "اكستريم", "price": 0, "desc": "115 قناة + 76 مشفرة (مجاني)" }
+      ]
+    },
+    {
+      "provider": "Like TV",
+      "packages": [
+        { "name": "الرياضية", "price": 17500, "desc": "96 قناة" },
+        { "name": "العائلية", "price": 22000, "desc": "106 قناة" },
+        { "name": "دايموند", "price": 29000, "desc": "128 قناة" }
+      ]
+    }
+  ],
+  "heroes": [
+    { "title": "إنترنت منزلي", "desc": "اتصال ثابت وسريع مع خدمة ADSL من F5R NET", "btn": "معرفة المزيد" },
+    { "title": "تطبيق F5R", "desc": "تحكم في باقاتك وطلباتك بسهولة عبر التطبيق", "btn": "حمل التطبيق الآن" },
+    { "title": "دعم فني 24/7", "desc": "فريقنا جاهز لمساعدتك في أي وقت", "btn": "تواصل معنا" },
+    { "title": "تتبع المركبات", "desc": "تابع موقع مركبتك في الوقت الفعلي مع GPS", "btn": "اطلب الآن" },
+    { "title": "تلفزيونك بلا حدود", "desc": "أفضل القنوات بجودة عالية مع IPTV", "btn": "اشترك الآن" },
+    { "title": "الدفع الإلكتروني", "desc": "ادفع بسرعة وأمان عبر هاتفك", "btn": "معرفة المزيد" }
+  ],
+  "offers": [
+    { "title": "Speed", "desc": "سرعة إنترنت مضاعفة 4 مرات خلال فترة النهار" },
+    { "title": "VIP", "desc": "تجربة إنترنت متميزة بتقليل نسبة التشاركية إلى 1/4" },
+    { "title": "اشتراك جديد", "desc": "اشترك الآن واحجز بوابتك إلى عالم الإنترنت السريع" }
+  ],
+  "cities": [
+    { "name": "دمشق", "poss": 33, "wifi": 1 },
+    { "name": "ريف دمشق", "poss": 0, "wifi": 9 },
+    { "name": "حلب", "poss": 0, "wifi": 0 },
+    { "name": "حمص", "poss": 55, "wifi": 1 },
+    { "name": "اللاذقية", "poss": 285, "wifi": 0 },
+    { "name": "حماة", "poss": 33, "wifi": 3 },
+    { "name": "طرطوس", "poss": 29, "wifi": 1 },
+    { "name": "إدلب", "poss": 0, "wifi": 0 },
+    { "name": "الحسكة", "poss": 0, "wifi": 0 },
+    { "name": "دير الزور", "poss": 0, "wifi": 0 },
+    { "name": "الرقة", "poss": 0, "wifi": 0 },
+    { "name": "السويداء", "poss": 0, "wifi": 0 },
+    { "name": "درعا", "poss": 1, "wifi": 0 },
+    { "name": "القنيطرة", "poss": 0, "wifi": 0 }
+  ],
+  "epayments": [
+    { "title": "نقاط البيع", "info": "من إحدى مراكز نقاط البيع الخاصة بنا", "icon": "fas fa-store-alt" },
+    { "title": "بنك البركة", "info": "تسديد الفاتورة من تطبيق بنك البركة", "icon": "fas fa-university" },
+    { "title": "شركة الهرم", "info": "الاسم: الشركة الألفية - رقم: 0989230232", "icon": "fas fa-exchange-alt" },
+    { "title": "بنك الشام", "info": "رقم الحساب: 7001319", "icon": "fas fa-building-columns" },
+    { "title": "بنك بيمو السعودي الفرنسي", "info": "رقم الحساب: 0380259366", "icon": "fas fa-landmark" },
+    { "title": "MTN & Syriatel", "info": "الاسم: الألفية - F5R (مرتين شهرياً)", "icon": "fas fa-mobile-alt" }
+  ],
+  "apps": [
+    { "title": "F5R ISP", "version": "v1.0.0", "desc": "التطبيق الرئيسي للشركة" },
+    { "title": "TV Mobile App", "version": "v1.0.1", "desc": "تطبيق المشاهدة على الجوال" },
+    { "title": "Mobile F5R TV", "version": "v1.0.2", "desc": "تطبيق التلفزيون المحمول" }
+  ],
+  "contacts": [
+    { "title": "فيسبوك", "icon": "fab fa-facebook", "url": "https://www.facebook.com/MTSISP" },
+    { "title": "تيليجرام", "icon": "fab fa-telegram", "url": "https://t.me/MTS_ISP_bot" },
+    { "title": "انستجرام", "icon": "fab fa-instagram", "url": "https://www.instagram.com/mts_isp/" },
+    { "title": "يوتيوب", "icon": "fab fa-youtube", "url": "https://www.youtube.com/@mtsisp3801" },
+    { "title": "واتساب", "icon": "fab fa-whatsapp", "url": "https://wa.me/+963996802720" },
+    { "title": "هاتف", "icon": "fas fa-phone", "url": "tel:119270" }
+  ]
+}
