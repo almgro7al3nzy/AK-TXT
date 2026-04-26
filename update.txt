@@ -40,5 +40,5 @@
     "stickers_app_direct_link": "https://www.gbgroupapps.com/?p=508",
     "update_message": "<p>Update v26.1</p>\n<li>تحديث القاعدة إلى 2.23.16.76</li>..."
   },
-  "_lastUpdate": "2026-04-26T21:44:43.003Z"
+  "_lastUpdate": "2026-04-26T21:45:13.831Z"
 }
