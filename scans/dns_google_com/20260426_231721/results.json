@@ -1,0 +1,191 @@
+{
+    "فحص_متقدم_ل__ping": {
+        "target": "dns.google.com",
+        "timestamp": "2026-04-26T23:17:02.284657",
+        "packets": [
+            {
+                "time_ms": 74.2,
+                "success": true
+            },
+            {
+                "time_ms": 75.3,
+                "success": true
+            },
+            {
+                "time_ms": 61.6,
+                "success": true
+            },
+            {
+                "time_ms": 63.1,
+                "success": true
+            },
+            {
+                "time_ms": 70.1,
+                "success": true
+            },
+            {
+                "success": false
+            },
+            {
+                "time_ms": 78.0,
+                "success": true
+            },
+            {
+                "time_ms": 68.2,
+                "success": true
+            },
+            {
+                "time_ms": 62.1,
+                "success": true
+            },
+            {
+                "success": false
+            }
+        ],
+        "statistics": {
+            "count": 8,
+            "min_ms": 61.6,
+            "max_ms": 78.0,
+            "avg_ms": 69.08,
+            "median_ms": 69.15,
+            "jitter_ms": 6.73
+        }
+    },
+    "فحص_dns_resolution_متقدم": {
+        "target": "dns.google.com",
+        "timestamp": "2026-04-26T23:17:10.114647",
+        "standard_dns": [
+            {
+                "type": "A",
+                "address": "8.8.8.8"
+            },
+            {
+                "type": "A",
+                "address": "8.8.4.4"
+            },
+            {
+                "type": "A",
+                "address": "8.8.8.8"
+            },
+            {
+                "type": "A",
+                "address": "8.8.4.4"
+            },
+            {
+                "type": "AAAA",
+                "address": "2001:4860:4860::8888"
+            },
+            {
+                "type": "AAAA",
+                "address": "2001:4860:4860::8844"
+            },
+            {
+                "type": "AAAA",
+                "address": "2001:4860:4860::8888"
+            },
+            {
+                "type": "AAAA",
+                "address": "2001:4860:4860::8844"
+            }
+        ],
+        "dnssec": {
+            "status": "DNSSEC check attempted"
+        }
+    },
+    "فحص_منافذ_متقدم": {
+        "target": "dns.google.com",
+        "timestamp": "2026-04-26T23:17:10.988150",
+        "ports": [
+            {
+                "port": 53,
+                "service": "DNS",
+                "open": true,
+                "banner": ""
+            },
+            {
+                "port": 853,
+                "service": "DNS-over-TLS",
+                "open": true,
+                "banner": null
+            },
+            {
+                "port": 80,
+                "service": "HTTP",
+                "open": false,
+                "banner": null
+            },
+            {
+                "port": 443,
+                "service": "HTTPS",
+                "open": true,
+                "banner": ""
+            },
+            {
+                "port": 22,
+                "service": "SSH",
+                "open": false,
+                "banner": null
+            },
+            {
+                "port": 25,
+                "service": "SMTP",
+                "open": false,
+                "banner": null
+            }
+        ],
+        "security_analysis": {
+            "open_ports_count": 3,
+            "issues": [],
+            "risk_level": "LOW"
+        }
+    },
+    "فحص_شهادة_ssl": {
+        "target": "dns.google.com",
+        "timestamp": "2026-04-26T23:17:21.116169",
+        "certificate": {
+            "subject": {
+                "commonName": "dns.google"
+            },
+            "issuer": {
+                "countryName": "US",
+                "organizationName": "Google Trust Services",
+                "commonName": "WR2"
+            },
+            "version": 3,
+            "not_before": "Mar 30 08:37:38 2026 GMT",
+            "not_after": "Jun 22 08:37:37 2026 GMT"
+        },
+        "validity": {
+            "days_remaining": 56,
+            "expired": false,
+            "expiring_soon": false
+        }
+    },
+    "كشف_تهديدات": {
+        "threats": [],
+        "summary": {
+            "total_threats": 0,
+            "by_severity": {},
+            "by_type": {},
+            "latest": []
+        },
+        "risk_level": "LOW"
+    },
+    "summary": {
+        "health_score": 70,
+        "status": "جيد",
+        "issues": [
+            "فشل تحليل DNS"
+        ],
+        "warnings": [],
+        "timestamp": "2026-04-26T23:17:21.985951"
+    },
+    "system_info": {
+        "platform": "Android-16-aarch64-64bit-ELF",
+        "python_version": "3.13.13 (main, Apr 10 2026, 16:12:19) [Clang 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f0",
+        "hostname": "localhost",
+        "timestamp": "2026-04-26T23:17:21.986328",
+        "duration_seconds": 202.515243,
+        "base_directory": "iptools/network_scan_20260426_231359"
+    }
+}
