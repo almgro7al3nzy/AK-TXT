@@ -1,0 +1,75 @@
+[
+  {
+    "key": "-Or9mjCL7VSGGGgPu9qh",
+    "dns": {
+      "dnssec": false,
+      "ipv4": "225.244.25.211",
+      "resolution_time_ms": 33.082726229614245,
+      "resolved": true
+    },
+    "health_score": 89,
+    "hostname": "localhost",
+    "id": "-Or9mjCL7VSGGGgPu9qh",
+    "ping": {
+      "avg_ms": 70.69950355166299,
+      "jitter_ms": 3.8476636893297194,
+      "max_ms": 96.97413089191531,
+      "min_ms": 44.6995630219529,
+      "packets_received": 5,
+      "packets_sent": 5
+    },
+    "ports": [
+      {
+        "open": true,
+        "port": 80,
+        "response_ms": 119.02711511646109,
+        "service": "HTTP"
+      },
+      {
+        "open": true,
+        "port": 443,
+        "response_ms": 64.02050852852727,
+        "service": "HTTPS"
+      },
+      {
+        "open": false,
+        "port": 22,
+        "response_ms": 44.36164611719444,
+        "service": "SSH"
+      },
+      {
+        "open": true,
+        "port": 53,
+        "response_ms": 56.36749530828499,
+        "service": "DNS"
+      },
+      {
+        "open": false,
+        "port": 8080,
+        "response_ms": 89.85485790103725,
+        "service": "HTTP-ALT"
+      }
+    ],
+    "saved_at": 1777223792382,
+    "ssl": {
+      "days_remaining": 146,
+      "issuer": "Let's Encrypt Authority X3",
+      "valid": true
+    },
+    "status": "ممتاز",
+    "target": "google.com",
+    "timestamp": "2026-04-26T17:16:32.382Z",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
+  },
+  {
+    "key": "-Or9mh2YSZwrPVtKBohu",
+    "dns_ok": true,
+    "health_score": 88,
+    "id": "-Or9mh2YSZwrPVtKBohu",
+    "ping_avg": 45.02838467226981,
+    "saved_at": 1777223782627,
+    "status": "فحص سريع",
+    "target": "google.com",
+    "timestamp": "2026-04-26T17:16:22.627Z"
+  }
+]
