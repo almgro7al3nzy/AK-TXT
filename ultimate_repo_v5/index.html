@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+    <title>RepoMaster Pro | PPPoE · Ubiquiti · ترددات · ATS · سوريا</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        :root {
+            --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --accent-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            --dark-gradient: linear-gradient(135deg, #141e30 0%, #243b55 100%);
+            --bg-light: #f5f7fa;
+            --bg-dark: #1e293b;
+            --text-light: #f8f9fa;
+            --shadow: 0 10px 30px rgba(0,0,0,0.15);
+            --radius: 20px;
+            --transition: 0.3s ease;
+            --font: 'Cairo', sans-serif;
+        }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            font-family: var(--font);
+            background: var(--bg-light);
+            color: #1e293b;
+            direction: rtl;
+            overflow-x: hidden;
+        }
+        body.dark { background: var(--dark-gradient); color: var(--text-light); }
+        nav {
+            background: rgba(255,255,255,0.85);
+            backdrop-filter: blur(15px);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 25px;
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+            box-shadow: 0 2px 20px rgba(0,0,0,0.05);
+        }
+        body.dark nav { background: rgba(20,30,48,0.9); border-bottom-color: rgba(255,255,255,0.1); }
+        nav .logo {
+            font-size: 1.8rem;
+            font-weight: 900;
+            background: var(--primary-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .tab-buttons { display: flex; gap: 5px; flex-wrap: wrap; }
+        .tab-btn {
+            padding: 10px 20px;
+            border-radius: 40px;
+            border: none;
+            background: transparent;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            font-family: inherit;
+            color: inherit;
+        }
+        .tab-btn.active {
+            background: var(--primary-gradient);
+            color: white;
+            box-shadow: 0 5px 15px rgba(102,126,234,0.4);
+        }
+        .tab-pane { display: none; padding: 30px 20px; animation: fade 0.5s; }
+        .tab-pane.active { display: block; }
+        @keyframes fade { from { opacity:0; } to { opacity:1; } }
+        .card {
+            background: white;
+            border-radius: var(--radius);
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: var(--shadow);
+        }
+        body.dark .card { background: var(--bg-dark); }
+        .flex { display:flex; gap:20px; flex-wrap:wrap; align-items:center; }
+        .btn {
+            display:inline-flex; align-items:center; gap:8px;
+            padding:12px 24px; border-radius:50px; font-weight:600; cursor:pointer;
+            border:none; transition:var(--transition); font-family:inherit;
+        }
+        .btn-primary { background:var(--primary-gradient); color:white; }
+        .btn-outline { border:2px solid #667eea; color:#667eea; background:transparent; }
+        body.dark .btn-outline { color:#a78bfa; border-color:#a78bfa; }
+        input, select, textarea {
+            width:100%; padding:12px 16px; border:2px solid #e2e8f0;
+            border-radius:30px; font-family:inherit; margin-bottom:15px; background:inherit;
+        }
+        body.dark input, body.dark select { border-color:#475569; color:white; }
+        table { width:100%; border-collapse:collapse; }
+        th { background:var(--primary-gradient); color:white; padding:12px; text-align:right; }
+        td { padding:10px; border-bottom:1px solid #e2e8f0; }
+        body.dark td { border-bottom-color:#334155; }
+        @media (max-width:768px) { .tab-btn { padding:8px 14px; font-size:0.85rem; } }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">🌐 RepoMaster Pro</div>
+        <div class="tab-buttons">
+            <button class="tab-btn active" data-tab="pppoe">📡 PPPoE</button>
+            <button class="tab-btn" data-tab="ubiquiti">📶 Ubiquiti</button>
+            <button class="tab-btn" data-tab="frequencies">📊 الترددات</button>
+            <button class="tab-btn" data-tab="ats">⚡ ATS</button>
+            <button class="tab-btn" data-tab="syria">🇸🇾 مواقع سوريا</button>
+        </div>
+        <button onclick="toggleDark()"><i class="fas fa-moon"></i></button>
+    </nav>
+
+    <!-- ========== PPPoE ========== -->
+    <div id="tab-pppoe" class="tab-pane active">
+        <div style="max-width:500px; margin:0 auto;">
+            <div id="pppoe-login">
+                <div class="card">
+                    <h2><i class="fas fa-lock"></i> دخول المشرف</h2>
+                    <input id="loginUser" placeholder="المستخدم">
+                    <input id="loginPass" type="password" placeholder="كلمة المرور">
+                    <button class="btn btn-primary" id="loginBtn">تسجيل الدخول</button>
+                    <p id="loginError" style="color:red; margin-top:10px;"></p>
+                </div>
+            </div>
+            <div id="pppoe-dashboard" style="display:none;">
+                <div class="card">
+                    <h2>لوحة تحكم ISP</h2>
+                    <div id="stats" class="flex" style="justify-content:space-around; margin-bottom:20px;"></div>
+                    <div id="accountsList"></div>
+                    <button class="btn btn-primary" id="addAccountBtn">➕ إضافة حساب</button>
+                </div>
+            </div>
+        </div>
+        <div id="accountModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.6); align-items:center; justify-content:center; z-index:2000;">
+            <div class="card" style="max-width:600px; width:90%;">
+                <h2 id="modalTitle">حساب جديد</h2>
+                <form id="accountForm">
+                    <input id="accId" type="hidden">
+                    <input id="accName" placeholder="الاسم الكامل" required>
+                    <input id="accPhone" placeholder="الهاتف" required>
+                    <input id="accUser" placeholder="اسم المستخدم PPPoE" required>
+                    <input id="accPass" placeholder="كلمة المرور" required>
+                    <input id="accIp" placeholder="IP الرئيسي" required>
+                    <input id="accSpeed" placeholder="السرعة (مثال: 50 Mbps)" value="50 Mbps">
+                    <input id="accPrice" placeholder="السعر">
+                    <input id="accExpiry" type="date">
+                    <div class="flex">
+                        <button type="submit" class="btn btn-primary">حفظ</button>
+                        <button type="button" class="btn btn-outline" onclick="document.getElementById('accountModal').style.display='none'">إلغاء</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== Ubiquiti ========== -->
+    <div id="tab-ubiquiti" class="tab-pane">
+        <div class="card">
+            <h2><i class="fas fa-satellite-dish"></i> Ubiquiti LBE-M5-23</h2>
+            <div style="max-width:450px; margin:0 auto;">
+                <div style="text-align:center; margin-bottom:20px;">
+                    <div style="font-size:3rem; color:#667eea;">📡</div>
+                    <h3>شبكة Ubiquiti-Network</h3>
+                    <p>سرعة 250 ميجابت/ثانية</p>
+                </div>
+                <input id="ubntUser" placeholder="اسم المستخدم (ubnt)">
+                <input id="ubntPass" type="password" placeholder="كلمة المرور (ubnt)">
+                <button class="btn btn-primary" onclick="alert('تم الاتصال بالشبكة (محاكاة للواجهة)')">اتصال</button>
+                <p style="margin-top:10px; font-size:0.9rem;">الجهاز على التردد 5.220 GHz (القناة 44)</p>
+            </div>
+        </div>
+        <div class="card">
+            <h2><i class="fas fa-wifi"></i> تحويل الجهاز إلى نقطة وصول Wi-Fi</h2>
+            <ol>
+                <li><strong>التوصيل الفيزيائي:</strong> وصل كابل PoE من الراوتر إلى الجهاز.</li>
+                <li><strong>الوصول للإدارة:</strong> افتح http://192.168.1.20 (ubnt/ubnt).</li>
+                <li><strong>تغيير الوضع:</strong> في Wireless، اختر Access Point، أدخل SSID.</li>
+                <li><strong>الأمان:</strong> اختر WPA2 Personal، ضع كلمة مرور.</li>
+                <li><strong>الإعدادات المتقدمة:</strong> Output Power 100%، DTIM=2.</li>
+                <li><strong>التطبيق:</strong> اضغط Apply واتصل من الهاتف.</li>
+            </ol>
+            <p>التردد: 5GHz. تغطية تصل إلى 500+ متر. السرعة القصوى 250 ميجابت/ثانية.</p>
+        </div>
+    </div>
+
+    <!-- ========== الترددات ========== -->
+    <div id="tab-frequencies" class="tab-pane">
+        <div class="card">
+            <h2>📊 موسوعة الترددات 4.92 – 6.10 GHz</h2>
+            <div class="flex" style="justify-content:space-between; margin-bottom:15px;">
+                <div>إجمالي الترددات: <strong id="freqCount">0</strong></div>
+                <input id="freqSearch" placeholder="ابحث عن تردد..." style="width:200px;">
+            </div>
+            <canvas id="freqChart" height="80"></canvas>
+            <table id="freqTable" style="margin-top:15px;">
+                <thead><tr><th>التردد (GHz)</th><th>الطول الموجي (سم)</th><th>الفئة</th><th>التطبيق</th></tr></thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- ========== ATS ========== -->
+    <div id="tab-ats" class="tab-pane">
+        <div class="card">
+            <h2>⚡ دليل ATS المتكامل</h2>
+            <p>تصميم دارة التحويل التلقائي للمصدر الكهربائي (Automatic Transfer Switch).</p>
+            <h3>المكونات الأساسية</h3>
+            <ul>
+                <li>مصدر طاقة رئيسي واحتياطي</li>
+                <li>كونتاكتورات (Contactors)</li>
+                <li>ريليهات جهد (Voltage Relays)</li>
+                <li>مؤقتات زمنية (Timers)</li>
+                <li>قواطع دوائر (MCB/MCCB)</li>
+                <li>أسلاك توصيل مناسبة</li>
+            </ul>
+            <p><strong>مبدأ العمل:</strong> عند انقطاع المصدر الرئيسي، يستشعر الريليه انخفاض الجهد ويعطي إشارة للكونتاكتور لتحويل الحمل إلى المصدر الاحتياطي تلقائياً.</p>
+            <button class="btn btn-primary" onclick="alert('مخطط تفاعلي قريباً')">عرض المخطط</button>
+        </div>
+    </div>
+
+    <!-- ========== مواقع سوريا ========== -->
+    <div id="tab-syria" class="tab-pane">
+        <div class="card">
+            <h2>🇸🇾 قاعدة بيانات المناطق السورية</h2>
+            <div id="syriaStats" class="flex" style="justify-content:space-around; margin-bottom:20px;"></div>
+            <div id="syriaLocations"></div>
+        </div>
+    </div>
+
+    <script>
+        firebase.initializeApp({
+            apiKey: "AIzaSyB_4W5bNSkmH22SRAWMrubOA_BR5BrybBk",
+            authDomain: "devf5r-msg.firebaseapp.com",
+            databaseURL: "https://devf5r-msg-default-rtdb.firebaseio.com",
+            projectId: "devf5r-msg",
+            storageBucket: "devf5r-msg.appspot.com",
+            messagingSenderId: "511842116704",
+            appId: "1:511842116704:web:936ad2c6e73870c9a40f05"
+        });
+        const db = firebase.database();
+
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const tab = btn.dataset.tab;
+                document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+                document.getElementById('tab-'+tab).classList.add('active');
+                if (tab === 'frequencies') initFrequencies();
+                if (tab === 'syria') loadSyriaLocations();
+            });
+        });
+
+        function toggleDark() { document.body.classList.toggle('dark'); }
+
+        // PPPoE
+        const accountsRef = db.ref('pppoe/accounts');
+        let currentUser = null;
+        document.getElementById('loginBtn').addEventListener('click', async () => {
+            const u = document.getElementById('loginUser').value.trim();
+            const p = document.getElementById('loginPass').value.trim();
+            if (u === 'admin' && p === 'admin') {
+                currentUser = { role: 'admin' };
+                document.getElementById('pppoe-login').style.display = 'none';
+                document.getElementById('pppoe-dashboard').style.display = 'block';
+                loadAccounts();
+            } else {
+                document.getElementById('loginError').textContent = 'بيانات خاطئة';
+            }
+        });
+
+        function loadAccounts() {
+            accountsRef.on('value', snap => {
+                const accounts = snap.val() || {};
+                const list = document.getElementById('accountsList');
+                let html = '<table><tr><th>الاسم</th><th>الهاتف</th><th>IP</th><th>السرعة</th><th>انتهاء</th><th>إجراءات</th></tr>';
+                Object.entries(accounts).forEach(([id, acc]) => {
+                    html += `<tr><td>${acc.fullName||''}</td><td>${acc.phone||''}</td><td>${acc.ip||''}</td><td>${acc.speed||''}</td><td>${acc.expiryDate||''}</td>
+                    <td><button onclick="editAccount('${id}')">✏️</button> <button onclick="deleteAccount('${id}')">🗑️</button></td></tr>`;
+                });
+                html += '</table>';
+                list.innerHTML = html;
+                document.getElementById('stats').innerHTML = `الإجمالي: ${Object.keys(accounts).length} | نشطة: ${Object.values(accounts).filter(a=>a.expiryDate&&new Date(a.expiryDate)>new Date()).length}`;
+            });
+        }
+
+        window.editAccount = (id) => {
+            accountsRef.child(id).once('value', snap => {
+                const acc = snap.val();
+                document.getElementById('accId').value = id;
+                document.getElementById('accName').value = acc.fullName||'';
+                document.getElementById('accPhone').value = acc.phone||'';
+                document.getElementById('accUser').value = acc.username||'';
+                document.getElementById('accPass').value = acc.password||'';
+                document.getElementById('accIp').value = acc.ip||'';
+                document.getElementById('accSpeed').value = acc.speed||'';
+                document.getElementById('accPrice').value = acc.price||'';
+                document.getElementById('accExpiry').value = acc.expiryDate||'';
+                document.getElementById('modalTitle').textContent = 'تعديل حساب';
+                document.getElementById('accountModal').style.display = 'flex';
+            });
+        };
+        window.deleteAccount = async (id) => {
+            if (confirm('حذف الحساب؟')) { await accountsRef.child(id).remove(); loadAccounts(); }
+        };
+        document.getElementById('addAccountBtn').addEventListener('click', () => {
+            document.getElementById('accountForm').reset();
+            document.getElementById('accId').value = '';
+            document.getElementById('modalTitle').textContent = 'إضافة حساب';
+            document.getElementById('accountModal').style.display = 'flex';
+        });
+        document.getElementById('accountForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const id = document.getElementById('accId').value;
+            const data = {
+                fullName: document.getElementById('accName').value,
+                phone: document.getElementById('accPhone').value,
+                username: document.getElementById('accUser').value,
+                password: document.getElementById('accPass').value,
+                ip: document.getElementById('accIp').value,
+                speed: document.getElementById('accSpeed').value,
+                price: document.getElementById('accPrice').value,
+                expiryDate: document.getElementById('accExpiry').value,
+                updatedAt: firebase.database.ServerValue.TIMESTAMP
+            };
+            if (id) await accountsRef.child(id).update(data);
+            else await accountsRef.push({...data, createdAt: firebase.database.ServerValue.TIMESTAMP});
+            document.getElementById('accountModal').style.display = 'none';
+            loadAccounts();
+        });
+
+        // الترددات
+        const freqData = [];
+        for (let f=4.92; f<=6.105; f+=0.005) freqData.push(parseFloat(f.toFixed(3)));
+        function getFreqCategory(f) {
+            if (f>=5.15&&f<=5.35) return 'Wi-Fi UNII-1';
+            if (f>=5.47&&f<=5.725) return 'Wi-Fi UNII-2C';
+            if (f>=5.725&&f<=5.875) return 'ISM/UNII-3';
+            if (f>=5.35&&f<=5.65) return 'رادار';
+            if (f>=5.85) return 'أقمار صناعية';
+            return 'عام';
+        }
+        function getFreqApp(f) {
+            if (f>=5.15&&f<=5.85) return 'شبكات Wi-Fi';
+            if (f>=5.725&&f<=5.875) return 'صناعي/طبي';
+            if (f>=5.35&&f<=5.65) return 'رادار';
+            if (f>=5.85) return 'VSAT/أقمار';
+            return 'اتصالات';
+        }
+        function initFrequencies() {
+            document.getElementById('freqCount').textContent = freqData.length;
+            const tbody = document.querySelector('#freqTable tbody');
+            tbody.innerHTML = freqData.map(f => `<tr><td>${f.toFixed(3)}</td><td>${(30/f).toFixed(2)}</td><td>${getFreqCategory(f)}</td><td>${getFreqApp(f)}</td></tr>`).join('');
+            const ctx = document.getElementById('freqChart').getContext('2d');
+            const bins = {}; freqData.forEach(f => { const b=Math.floor(f*10)/10; bins[b]=(bins[b]||0)+1; });
+            new Chart(ctx, { type:'bar', data:{ labels:Object.keys(bins).sort(), datasets:[{ label:'عدد الترددات', data:Object.values(bins), backgroundColor:'#667eea' }] } });
+        }
+        document.getElementById('freqSearch').addEventListener('input', function() {
+            const term = this.value;
+            const filtered = term ? freqData.filter(f => f.toFixed(3).includes(term)) : freqData;
+            document.querySelector('#freqTable tbody').innerHTML = filtered.map(f => `<tr><td>${f.toFixed(3)}</td><td>${(30/f).toFixed(2)}</td><td>${getFreqCategory(f)}</td><td>${getFreqApp(f)}</td></tr>`).join('');
+        });
+
+        // مواقع سوريا
+        function loadSyriaLocations() {
+            db.ref('syria_locations').once('value', snap => {
+                const data = snap.val();
+                if (!data) { document.getElementById('syriaLocations').innerHTML = '<p>لا توجد بيانات. شغّل السكربت sy.py لرفعها.</p>'; return; }
+                const locations = Object.values(data);
+                document.getElementById('syriaStats').innerHTML = `الإجمالي: ${locations.length} منطقة`;
+                document.getElementById('syriaLocations').innerHTML = '<table><tr><th>الاسم</th><th>المحافظة</th><th>النوع</th></tr>' + locations.map(loc => `<tr><td>${loc.name}</td><td>${loc.governorate}</td><td>${loc.type}</td></tr>`).join('') + '</table>';
+            });
+        }
+    </script>
+</body>
+</html>
