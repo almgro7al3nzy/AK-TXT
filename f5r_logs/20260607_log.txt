@@ -37,3 +37,15 @@
 2026-06-07 19:41:43,588 - INFO - تم حفظ 7643214997677460743 في قاعدة البيانات المحلية
 2026-06-07 19:41:48,969 - INFO - تم مزامنة 7643214997677460743 مع Firebase
 2026-06-07 19:41:48,977 - INFO - تم التحميل: /sdcard/F5R TIKTOK/👍🏻 #قصيد #foryoupage _7643214997677460743.mp4 (الحجم: 1308.6KB) عبر fallback
+2026-06-07 19:41:59,307 - INFO - تم نسخ السجل احتياطياً إلى GitHub
+2026-06-07 19:42:14,095 - ERROR - yt-dlp فشل: ERROR: [TikTok] 7629082986385853703: Unable to download webpage: HTTP Error 451: Unavailable For Legal Reasons (caused by <HTTPError 451: Unavailable For Legal Reasons>)
+2026-06-07 19:42:45,934 - ERROR - Fallback download فشل: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2026-06-07 19:42:53,916 - ERROR - yt-dlp فشل: ERROR: [TikTok] 7642268667153026312: Unable to download webpage: HTTP Error 451: Unavailable For Legal Reasons (caused by <HTTPError 451: Unavailable For Legal Reasons>)
+2026-06-07 19:43:06,491 - INFO - تم حفظ 7642268667153026312 في قاعدة البيانات المحلية
+2026-06-07 19:43:12,608 - ERROR - Firebase PUT videos/7642268667153026312 فشل: HTTPSConnectionPool(host='devf5r-msg-default-rtdb.firebaseio.com', port=443): Max retries exceeded with url: /f5r_vides/videos/7642268667153026312.json (Caused by NewConnectionError("HTTPSConnection(host='devf5r-msg-default-rtdb.firebaseio.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+2026-06-07 19:43:12,631 - WARNING - فشلت مزامنة 7642268667153026312 مع Firebase
+2026-06-07 19:43:12,640 - INFO - تم التحميل: /sdcard/F5R TIKTOK/جعلها ماترضى#عزوز_واو #قصيده #اكسبلور #fyp #fory_7642268667153026312.mp4 (الحجم: 1136.9KB) عبر fallback
+2026-06-07 19:43:14,752 - ERROR - yt-dlp فشل: ERROR: [TikTok] 7629502214448401672: Unable to download webpage: HTTP Error 451: Unavailable For Legal Reasons (caused by <HTTPError 451: Unavailable For Legal Reasons>)
+2026-06-07 19:43:38,784 - INFO - تم حفظ 7629502214448401672 في قاعدة البيانات المحلية
+2026-06-07 19:43:42,777 - INFO - تم مزامنة 7629502214448401672 مع Firebase
+2026-06-07 19:43:42,783 - INFO - تم التحميل: /sdcard/F5R TIKTOK/ٰ         يا أم العيون الوساع اليا تبينتي        ٰ_7629502214448401672.mp4 (الحجم: 1814.0KB) عبر fallback
