@@ -1,1 +1,12 @@
 2026-06-07 19:37:39,827 - INFO - قاعدة البيانات المحلية جاهزة
+2026-06-07 19:37:46,467 - INFO - تم نسخ السجل احتياطياً إلى GitHub
+2026-06-07 19:38:18,755 - ERROR - yt-dlp فشل: ERROR: [TikTok] 7632027323222560021: Unable to download webpage: HTTP Error 451: Unavailable For Legal Reasons (caused by <HTTPError 451: Unavailable For Legal Reasons>)
+2026-06-07 19:38:36,799 - ERROR - Fallback download فشل: HTTPSConnectionPool(host='v16m.tiktokcdn-us.com', port=443): Max retries exceeded with url: /3aa24d539a91ab2810a830c2c8ac2e99/6a25f2f7/video/tos/alisg/tos-alisg-pve-0037c001/oMFgPzfp6AE2BWgVEtKmvR0BUKUfIJ2qEhmgQD/?a=1233&bti=OTg7QGo5QHM6OjZALTAzYCMvcCMxNDNg&&bt=236&ft=kLx3-yt4ZZo0PD9e353aQ9bxhcC6JE.C~&mime_type=video_mp4&rc=O2Y8ZTM2MzdmaDo5ZDZpOUBpamVnPHA5cjs5OjMzODczNEA0NjY0MF40XjIxLl5jNWItYSM2al9sMmQ0ZGlhLS1kMTFzcw%3D%3D&vvpl=1&l=20260607163823CCBDDBBC8498EC8BA19A&btag=e000f8000 (Caused by NameResolutionError("HTTPSConnection(host='v16m.tiktokcdn-us.com', port=443): Failed to resolve 'v16m.tiktokcdn-us.com' ([Errno 7] No address associated with hostname)"))
+2026-06-07 19:38:41,757 - ERROR - yt-dlp فشل: ERROR: [TikTok] 7645283762061741330: Unable to download webpage: HTTP Error 451: Unavailable For Legal Reasons (caused by <HTTPError 451: Unavailable For Legal Reasons>)
+2026-06-07 19:38:45,991 - INFO - تم حفظ 7645283762061741330 في قاعدة البيانات المحلية
+2026-06-07 19:38:46,926 - INFO - تم مزامنة 7645283762061741330 مع Firebase
+2026-06-07 19:38:46,931 - INFO - تم التحميل: /sdcard/F5R TIKTOK/#fyyyyyyyyyyyyyyyy #fyp #explore _7645283762061741330.mp4 (الحجم: 267.0KB) عبر fallback
+2026-06-07 19:38:53,514 - ERROR - yt-dlp فشل: ERROR: [TikTok] 7642360759959162132: Unable to download webpage: HTTPSConnection(host='www.tiktok.com', port=443): Failed to resolve 'www.tiktok.com' ([Errno 7] No address associated with hostname) (caused by TransportError("HTTPSConnection(host='www.tiktok.com', port=443): Failed to resolve 'www.tiktok.com' ([Errno 7] No address associated with hostname)"))
+2026-06-07 19:39:05,092 - INFO - تم حفظ 7642360759959162132 في قاعدة البيانات المحلية
+2026-06-07 19:39:06,389 - INFO - تم مزامنة 7642360759959162132 مع Firebase
+2026-06-07 19:39:06,399 - INFO - تم التحميل: /sdcard/F5R TIKTOK/تُعَدّ ذُنوبي عندَ قَوْمٍ كثيرَةً ولا ذَنْبَ لي إل_7642360759959162132.mp4 (الحجم: 1118.0KB) عبر fallback
