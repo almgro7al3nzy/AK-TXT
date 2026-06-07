@@ -71,3 +71,10 @@
 2026-06-07 19:46:38,059 - INFO - تم حفظ 7627647386059410708 في قاعدة البيانات المحلية
 2026-06-07 19:46:40,393 - INFO - تم مزامنة 7627647386059410708 مع Firebase
 2026-06-07 19:46:40,402 - INFO - تم التحميل: /sdcard/F5R TIKTOK/#pyfツ #pyf #pyfツviral_❤ #مسلسل_الشرار #هواجيس _7627647386059410708.mp4 (الحجم: 1554.3KB) عبر fallback
+2026-06-07 19:46:53,236 - INFO - تم نسخ السجل احتياطياً إلى GitHub
+2026-06-07 19:46:58,764 - ERROR - yt-dlp فشل: ERROR: [TikTok] 7627175637190495509: Unable to download webpage: HTTP Error 451: Unavailable For Legal Reasons (caused by <HTTPError 451: Unavailable For Legal Reasons>)
+2026-06-07 19:47:19,006 - ERROR - Fallback download فشل: HTTPSConnectionPool(host='v16m.tiktokcdn-us.com', port=443): Max retries exceeded with url: /45a39614f6be61a05838ffe19155e159/6a25f513/video/tos/alisg/tos-alisg-pve-0037c001/oELy5MIRgDAThgse2VL4yweQ8fVWdIA1GCljAW/?a=1233&bti=OUBzOTg7QGo6OjZAL3AjLTAzYCMxNDNg&&bt=618&ft=kLx3-yt4ZZo0PDF1p53aQ9hiU~j6JE.C~&mime_type=video_mp4&rc=NztmNWY3NGVoMzZoNjszZ0BpamhwcW85cmZsOjMzODczNEA2M18zYzRiNTMxNDFjM2AyYSNjNWBqMmQ0aWBhLS1kMWBzcw%3D%3D&vvpl=1&l=20260607164708B72D7A920B489D7F31F0&btag=e00088000 (Caused by NameResolutionError("HTTPSConnection(host='v16m.tiktokcdn-us.com', port=443): Failed to resolve 'v16m.tiktokcdn-us.com' ([Errno 7] No address associated with hostname)"))
+2026-06-07 19:47:23,384 - ERROR - yt-dlp فشل: ERROR: [TikTok] 7643120938078326037: Unable to download webpage: HTTP Error 451: Unavailable For Legal Reasons (caused by <HTTPError 451: Unavailable For Legal Reasons>)
+2026-06-07 19:47:48,136 - INFO - تم حفظ 7643120938078326037 في قاعدة البيانات المحلية
+2026-06-07 19:47:55,489 - INFO - تم مزامنة 7643120938078326037 مع Firebase
+2026-06-07 19:47:55,494 - INFO - تم التحميل: /sdcard/F5R TIKTOK/واسترزق الله مما في خزائنه فإن رزقك بين الكاف والن_7643120938078326037.mp4 (الحجم: 2114.7KB) عبر fallback
