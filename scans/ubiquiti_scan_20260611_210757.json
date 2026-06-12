@@ -1,0 +1,15 @@
+[
+  {
+    "ip": "192.168.1.20",
+    "mac": "80:2a:a8:72:8a:5e",
+    "discovery_method": "ARP",
+    "hostname": "ARP-device",
+    "price_usd": "غير معروف"
+  },
+  {
+    "ip": "192.168.1.1",
+    "discovery_method": "UPnP",
+    "hostname": "Archer_MR200",
+    "price_usd": "غير معروف"
+  }
+]
