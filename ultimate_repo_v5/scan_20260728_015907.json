@@ -1,0 +1,32 @@
+{
+  "base_url": "http://172.16.13.1/graphs/",
+  "interfaces": [],
+  "pppoe_accounts": [],
+  "total_interfaces": 0,
+  "successful_interfaces": 0,
+  "failed_interfaces": 0,
+  "total_pppoe": 0,
+  "active_pppoe": 0,
+  "inactive_pppoe": 0,
+  "total_rx_bytes": 0,
+  "total_tx_bytes": 0,
+  "scan_time": 231.42,
+  "timestamp": 1785193147.2297208,
+  "error": "Failed to fetch main page",
+  "config": {
+    "url": "http://172.16.13.1/graphs/",
+    "max_interfaces": null,
+    "timeout": 10,
+    "max_workers": 5,
+    "retry_count": 2,
+    "use_parallel": true,
+    "verify_ssl": true,
+    "has_auth": false,
+    "scan_pppoe": true,
+    "scan_graphs": true,
+    "enable_firebase": true,
+    "enable_github": true,
+    "enable_deepseek": true,
+    "enable_telegram": true
+  }
+}
